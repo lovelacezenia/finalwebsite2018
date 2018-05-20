@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Webtek</title>
+    <title>WebTech</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -97,55 +97,209 @@
                 </ul>
             </div>
         </aside>
-<div id="colorlib-work">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center animate-box intro-heading">
-						<h2>WEBTECH FINALS QUIZZES</h2>
-					</div>
-				</div>
-				<div class="row row-padded-bottom">
-					<div class="col-md-6 animate-box text-center">
-						<a href="work-single.html" class="work-img" style="background-image: url(assets/images/q1.png);">
-							<div class="overlay"></div>
-							<div class="desc">
-								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<h3>Quiz 1</h3>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-6 animate-box text-center">
-						<a href="work-single.html" class="work-img" style="background-image: url(assets/images/q2.png);">
-							<div class="overlay"></div>
-							<div class="desc">
-								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<h3>Quiz 2</h3>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	<script src="../js/lib/jquery/jquery.min.js"></script>
- <script src="../js/modernizr-2.6.2.min.js"></script>
-	<!-- jQuery -->
-	
-	<!-- jQuery Easing -->
-	<script src="../js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="../js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="../js/jquery.waypoints.min.js"></script>
-	<!-- Flexslider -->
-	<script src="../js/jquery.flexslider-min.js"></script>
-	<!-- Counters -->
-	<script src="../js/jquery.countTo.js"></script>
-	<!-- Owl Carousel -->
-	<script src="../js/owl.carousel.min.js"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-	<!-- Main JS (Do not remove) -->
-	<script src="../js/main.js"></script>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>PHP Quiz</title>
+    
+    <link rel="stylesheet" type="text/css" href="website/css/style2.css" />
+</head>
+
+<body>
+
+    <div id="page-wrap">
+
+      <img src="../images/quiz.png">
+        
+        <form action="score.php" method="post" id="quiz">
+        
+            <ol>
+            
+                <li>
+                
+                    <h3>It is a java Objects that are intended to play the role of server component...</h3>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+                        <label for="question-1-answers-A">A) HTTP SERVLET </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+                        <label for="question-1-answers-B">B) JAVA SERVLET</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+                        <label for="question-1-answers-C">C) SERVLET REQUEST</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+                        <label for="question-1-answers-D">D) SERVLET RESPONSE </label>
+                    </div>
+                
+                </li>
+                
+                <li>
+                
+                    <h3>It is a widely-used open source general-purpose scripting language that is especially suited for web development...</h3>
+                    
+                    <div>
+                        <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
+                        <label for="question-2-answers-A">A) PHP </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
+                        <label for="question-2-answers-B">B) JSP </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
+                        <label for="question-2-answers-C">C) SERVLET </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
+                        <label for="question-2-answers-D">D) JAVASCRIPT </label>
+                    </div>
+                
+                </li>
+                
+                <li>
+                
+                    <h3>It is a PHP superglobal variable which holds information about headers, path, and script location... </h3>
+                    
+                    <div>
+                        <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
+                        <label for="question-3-answers-A">A) $_REQUEST </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
+                        <label for="question-3-answers-B">B) $_POST </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
+                        <label for="question-3-answers-C">C) $_SERVER </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" />
+                        <label for="question-3-answers-D">D) $_FILES </label>
+                    </div>
+                
+                </li>
+                
+                <li>
+                
+                    <h3>It is a JavaScript runtime built on Chrome's V8 JavaScript engine...</h3>
+                    
+                    <div>
+                        <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
+                        <label for="question-4-answers-A">A) Angular </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-4-answers" id="question-4-answers-B" value="B" />
+                        <label for="question-4-answers-B">B) Apache </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-4-answers" id="question-4-answers-C" value="C" />
+                        <label for="question-4-answers-C">C) Laravel </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-4-answers" id="question-4-answers-D" value="D" />
+                        <label for="question-4-answers-D">D) Node.js </label>
+                    </div>
+                
+                </li>
+                
+                <li>
+                
+                    <h3>It is a server-side programming technology that enables the creation of dynamic, platform-independent method for building Web-based Applications...</h3>
+                    
+                    <div>
+                        <input type="radio" name="question-5-answers" id="question-5-answers-A" value="A" />
+                        <label for="question-5-answers-A">A) PHP </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-5-answers" id="question-5-answers-B" value="B" />
+                        <label for="question-5-answers-B">B) JSP </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-5-answers" id="question-5-answers-C" value="C" />
+                        <label for="question-5-answers-C">C) SERVLET </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" />
+                        <label for="question-5-answers-D">D) JAVASCRIPT </label>
+                    </div>
+                
+                </li>
+            
+            </ol>
+
+          <input type="submit" value="Submit Quiz" id="sub"/>
+        
+        </form>
+    
+    </div>
+
+    <footer>
+            <div id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-pb-sm">
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <h2>Web Systems and Technologies</h2>
+                                    <p>9325A | 1:00 - 2:00 TF</p>
+                                    <span class="block">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <br></span>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+    </div>
+
+
+
+    <script src="../js/lib/jquery/jquery.min.js"></script>
+ <script src="../js/modernizr-2.6.2.min.js"></script>
+    <!-- jQuery -->
+    
+    <!-- jQuery Easing -->
+    <script src="../js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="../js/jquery.waypoints.min.js"></script>
+    <!-- Flexslider -->
+    <script src="../js/jquery.flexslider-min.js"></script>
+    <!-- Counters -->
+    <script src="../js/jquery.countTo.js"></script>
+    <!-- Owl Carousel -->
+    <script src="../js/owl.carousel.min.js"></script>
+
+    <!-- Main JS (Do not remove) -->
+    <script src="../js/main.js"></script>
 
 
 </body>
 </html>
+   
