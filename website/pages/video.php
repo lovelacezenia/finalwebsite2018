@@ -34,10 +34,10 @@
             <div class="colorlib-table-cell js-fullheight">
                 <ul>
                     <li><a href="../home.php">Home</a></li>
-                    <li><a href="pages/notes.php">Notes</a></li>
-                    <li><a href="pages/quiz.php">Quiz</a></li>
-                    <li><a href="pages/video.php">Video Tutorials</a></li>
-                    <li><a href="pages/developers.php">Developers</a></li>
+                    <li><a href="notes.php">Notes</a></li>
+                    <li><a href="quiz.php">Quiz</a></li>
+                    <li><a href="video.php">Video Tutorials</a></li>
+                    <li><a href="developers.php">Developers</a></li>
                 </ul>
             </div>
         </div>
