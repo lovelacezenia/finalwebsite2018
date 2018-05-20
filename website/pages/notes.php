@@ -105,7 +105,7 @@
 					</div>
 				</div><div class="row row-padded-bottom">
 					<div class="col-md-6 animate-box text-center">
-						<a href="php.html" class="work-img" style="background-image: url(../images/php.png);">
+						<a href="php.php" class="work-img" style="background-image: url(../images/php.png);">
 							<div class="overlay"></div>
 							<div class="desc">
 								<span class="icon"><i class="icon-heart-outline"></i></span>
@@ -116,7 +116,7 @@
 					</div>
 				<div class="row row-padded-bottom">
 					<div class="col-md-6 animate-box text-center">
-						<a href="servlet.html" class="work-img" style="background-image: url(../images/servlets.png);">
+						<a href="servlet.php" class="work-img" style="background-image: url(../images/servlets.png);">
 							<div class="overlay"></div>
 							<div class="desc">
 								<span class="icon"><i class="icon-heart-outline"></i></span>
@@ -126,7 +126,7 @@
 						</a>
 					</div>
 					<div class="col-md-6 animate-box text-center">
-						<a href="servlet.html" class="work-img" style="background-image: url(../images/servlets.png);">
+						<a href="servlet.php" class="work-img" style="background-image: url(../images/servlets.png);">
 							<div class="overlay"></div>
 							<div class="desc">
 								<span class="icon"><i class="icon-heart-outline"></i></span>
@@ -136,7 +136,7 @@
 						</a>
 					</div>
 					<div class="col-md-6 animate-box text-center">
-						<a href="sessionhandler.html" class="work-img" style="background-image: url(../images/sh.png);">
+						<a href="sessionhandler.php" class="work-img" style="background-image: url(../images/sh.png);">
 							<div class="overlay"></div>
 							<div class="desc">
 								<span class="icon"><i class="icon-heart-outline"></i></span>
@@ -146,7 +146,7 @@
 						</a>
 					</div>
 					<div class="col-md-6 animate-box text-center">
-						<a href="ScopedObjects.html" class="work-img" style="background-image: url(../images/so.png);">
+						<a href="ScopedObjects.php" class="work-img" style="background-image: url(../images/so.png);">
 							<div class="overlay"></div>
 							<div class="desc">
 								<span class="icon"><i class="icon-heart-outline"></i></span>
@@ -156,7 +156,7 @@
 						</a>
 					</div>
 					<div class="col-md-6 animate-box text-center">
-						<a href="ScopedObjects.html" class="work-img" style="background-image: url(../images/so.png);">
+						<a href="nodejs.php" class="work-img" style="background-image: url(../images/so.png);">
 							<div class="overlay"></div>
 							<div class="desc">
 								<span class="icon"><i class="icon-heart-outline"></i></span>
@@ -166,7 +166,7 @@
 						</a>
 					</div>
 					<div class="col-md-6 animate-box text-center">
-						<a href="ScopedObjects.html" class="work-img" style="background-image: url(../images/so.png);">
+						<a href="owasp.php" class="work-img" style="background-image: url(../images/so.png);">
 							<div class="overlay"></div>
 							<div class="desc">
 								<span class="icon"><i class="icon-heart-outline"></i></span>
