@@ -1,0 +1,52 @@
+/*
+	 CSS-Tricks Example
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
+
+*					{ margin: 0; padding: 0;}
+body				{ font: 14px Georgia, serif;}
+
+
+#page-wrap		    { width: 1300px; margin: center; }
+
+h1                  { margin: 5px 70px 20px 600px; font: 30px Georgia, Serif; text-transform: uppercase; letter-spacing: 3px;}
+
+
+#quiz input {
+    margin: 10px 60px 10px 200px;
+    
+}
+
+#quiz ol {
+   margin: 10px 70px 10px 200px;
+   font-size: 15px;
+    
+}
+
+#quiz ol li {
+   margin: 10px 70px 20px 50px;
+   font-size: 20px;
+    
+}
+
+#quiz ol li div {
+   padding: 7px 0;
+   font-size: 15px;
+
+
+    
+}
+
+#quiz h3 {
+   font-size: 20px; margin: 0 0 1px 0;
+  
+}
+
+#results {
+    font: 30px Georgia, Serif;
+    margin: 10px 70px 20px 670px;
+
+}
+
+
