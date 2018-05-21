@@ -1,30 +1,21 @@
 ;(function () {
-
+	
 	'use strict';
 
 
 
-	// iPad and iPod detection
+	// iPad and iPod detection	
 	var isiPad = function(){
 		return (navigator.platform.indexOf("iPad") != -1);
 	};
 
 	var isiPhone = function(){
 	    return (
-			(navigator.platform.indexOf("iPhone") != -1) ||
+			(navigator.platform.indexOf("iPhone") != -1) || 
 			(navigator.platform.indexOf("iPod") != -1)
 	    );
 	};
-	// Document on load.
-	$(function(){
-		fullHeight();
-		burgerMenu();
-		counter();
-		sliderMain();
-		counterWayPoint();
-		contentWayPoint();
-		owlCrouselFeatureSlide();
-	});
+
 
 	var fullHeight = function() {
 
@@ -59,7 +50,7 @@
 		$('.animate-box').waypoint( function( direction ) {
 
 			if( direction === 'down' && !$(this.element).hasClass('animated') ) {
-
+				
 				i++;
 
 				$(this.element).addClass('item-animate');
@@ -78,16 +69,16 @@
 							el.removeClass('item-animate');
 						},  k * 200, 'easeInOutExpo' );
 					});
-
+					
 				}, 100);
-
+				
 			}
 
 		} , { offset: '85%' } );
 	};
 
 	var sliderMain = function() {
-
+		
 	  	$('#colorlib-hero .flexslider').flexslider({
 			animation: "fade",
 			slideshowSpeed: 5000,
@@ -120,9 +111,9 @@
 	var counterWayPoint = function() {
 		if ($('#colorlib-counter').length > 0 ) {
 			$('#colorlib-counter').waypoint( function( direction ) {
-
+										
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
-					setTimeout( counter , 400);
+					setTimeout( counter , 400);					
 					$(this.element).addClass('animated');
 				}
 			} , { offset: '90%' } );
@@ -148,13 +139,22 @@
 		      "<i class='icon-arrow-left3 owl-direction'></i>",
 		      "<i class='icon-arrow-right3 owl-direction'></i>"
 	     	]
-		});
+		});	
 	};
 
+	
 
 
-
-
+	// Document on load.
+	$(function(){
+		fullHeight();
+		burgerMenu();
+		counter();
+		sliderMain();
+		counterWayPoint();
+		contentWayPoint();
+		owlCrouselFeatureSlide();
+	});
 
 
 }());
