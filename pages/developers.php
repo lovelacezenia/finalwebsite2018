@@ -116,7 +116,6 @@
 										</figure>
 										<blockquote>
 											<p>Dianne Alyza M. Cayabyab</p>
-											<span>Front-End Developer</span>
 										</blockquote>
 									</div>
 								</div>
@@ -127,7 +126,6 @@
 										</figure>
 										<blockquote>
 											<p> Sarah Mae E. Centino</p>
-											<span>Front-End Developer</span>
 										</blockquote>
 									</div>
 								</div>
@@ -138,7 +136,6 @@
 										</figure>
 										<blockquote>
 											<p>Graham Ross H. Flora</p>
-											<span>Back-End Developer</span>
 										</blockquote>
 									</div>
 								</div>
@@ -149,7 +146,6 @@
 										</figure>
 										<blockquote>
 											<p>Lovelace Zennia Luisa R. Oliva</p>
-											<span>Back-End Developer</span>
 										</blockquote>
 									</div>
 								</div>
