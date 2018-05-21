@@ -147,52 +147,52 @@
                 
                 <li>
                 
-                    <h3>It is a widely-used open source general-purpose scripting language that is especially suited for web development...</h3>
+                    <h3>Starts when a client (e.g. browser window) establishes connection with our web application till the point where the browser window is closed...</h3>
                     
                     <div>
-                        <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
-                        <label for="question-2-answers-A">A) PHP </label>
+                        <input type="radio" name="question-12-answers" id="question-12-answers-A" value="A" />
+                        <label for="question-12-answers-A">A) Context Scope </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
-                        <label for="question-2-answers-B">B) JSP </label>
+                        <input type="radio" name="question-12-answers" id="question-12-answers-B" value="B" />
+                        <label for="question-12-answers-B">B) Request Scope </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
-                        <label for="question-2-answers-C">C) SERVLET </label>
+                        <input type="radio" name="question-12-answers" id="question-12-answers-C" value="C" />
+                        <label for="question-12-answers-C">C) Session Scope </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
-                        <label for="question-2-answers-D">D) JAVASCRIPT </label>
+                        <input type="radio" name="question-12-answers" id="question-12-answers-D" value="D" />
+                        <label for="question-12-answers-D">D) JSP page Scope </label>
                     </div>
                 
                 </li>
                 
                 <li>
                 
-                    <h3>It is a PHP superglobal variable which holds information about headers, path, and script location... </h3>
+                    <h3>It is a PHP superglobal variable that is used to collect data after submitting an HTML form.... </h3>
                     
                     <div>
-                        <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
-                        <label for="question-3-answers-A">A) $_REQUEST </label>
+                        <input type="radio" name="question-13-answers" id="question-13-answers-A" value="A" />
+                        <label for="question-13-answers-A">A) $_REQUEST </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
-                        <label for="question-3-answers-B">B) $_POST </label>
+                        <input type="radio" name="question-13-answers" id="question-13-answers-B" value="B" />
+                        <label for="question-13-answers-B">B) $_POST </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
-                        <label for="question-3-answers-C">C) $_SERVER </label>
+                        <input type="radio" name="question-13-answers" id="question-13-answers-C" value="C" />
+                        <label for="question-13-answers-C">C) $_SERVER </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" />
-                        <label for="question-3-answers-D">D) $_FILES </label>
+                        <input type="radio" name="question-13-answers" id="question-13-answers-D" value="D" />
+                        <label for="question-13-answers-D">D) $_FILES </label>
                     </div>
                 
                 </li>
@@ -202,23 +202,23 @@
                     <h3>It is a JavaScript runtime built on Chrome's V8 JavaScript engine...</h3>
                     
                     <div>
-                        <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
-                        <label for="question-4-answers-A">A) Angular </label>
+                        <input type="radio" name="question-14-answers" id="question-14-answers-A" value="A" />
+                        <label for="question-14-answers-A">A) Angular </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-4-answers" id="question-4-answers-B" value="B" />
-                        <label for="question-4-answers-B">B) Apache </label>
+                        <input type="radio" name="question-14-answers" id="question-14-answers-B" value="B" />
+                        <label for="question-14-answers-B">B) Apache </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-4-answers" id="question-4-answers-C" value="C" />
-                        <label for="question-4-answers-C">C) Laravel </label>
+                        <input type="radio" name="question-14-answers" id="question-14-answers-C" value="C" />
+                        <label for="question-14-answers-C">C) Laravel </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-4-answers" id="question-4-answers-D" value="D" />
-                        <label for="question-4-answers-D">D) Node.js </label>
+                        <input type="radio" name="question-14-answers" id="question-14-answers-D" value="D" />
+                        <label for="question-14-answers-D">D) Node.js </label>
                     </div>
                 
                 </li>
@@ -228,26 +228,156 @@
                     <h3>It is a server-side programming technology that enables the creation of dynamic, platform-independent method for building Web-based Applications...</h3>
                     
                     <div>
-                        <input type="radio" name="question-5-answers" id="question-5-answers-A" value="A" />
-                        <label for="question-5-answers-A">A) PHP </label>
+                        <input type="radio" name="question-15-answers" id="question-15-answers-A" value="A" />
+                        <label for="question-15-answers-A">A) PHP </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-5-answers" id="question-5-answers-B" value="B" />
-                        <label for="question-5-answers-B">B) JSP </label>
+                        <input type="radio" name="question-15-answers" id="question-15-answers-B" value="B" />
+                        <label for="question-15-answers-B">B) JSP </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-5-answers" id="question-5-answers-C" value="C" />
-                        <label for="question-5-answers-C">C) SERVLET </label>
+                        <input type="radio" name="question-15-answers" id="question-15-answers-C" value="C" />
+                        <label for="question-15-answers-C">C) SERVLET </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" />
-                        <label for="question-5-answers-D">D) JAVASCRIPT </label>
+                        <input type="radio" name="question-15-answers" id="question-15-answers-D" value="D" />
+                        <label for="question-15-answers-D">D) JAVASCRIPT </label>
                     </div>
                 
                 </li>
+                 <li>
+                
+                    <h3>Which of the following is an object representation of the HTTP response generated by the servlet and sent back to the requesting client?</h3>
+                    
+                    <div>
+                        <input type="radio" name="question-16-answers" id="question-16-answers-A" value="A" />
+                        <label for="question-16-answers-A">A)  HTTP Servlet Request </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-16-answers" id="question-16-answers-B" value="B" />
+                        <label for="question-16-answers-B">B) HTTP Servlet Response </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-16-answers" id="question-16-answers-C" value="C" />
+                        <label for="question-16-answers-C">C) Java Servlets </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-16-answers" id="question-16-answers-D" value="D" />
+                        <label for="question-16-answers-D">D) HTTP Request Methods </label>
+                    </div>
+                
+                </li>
+                
+                <li>
+                
+                    <h3>Starts when a client (e.g. browser window) establishes connection with our web application till the point where the browser window is closed...</h3>
+                    
+                    <div>
+                        <input type="radio" name="question-17-answers" id="question-17-answers-A" value="A" />
+                        <label for="question-17-answers-A">A) Context Scope </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-17-answers" id="question-17-answers-B" value="B" />
+                        <label for="question-17-answers-B">B) Request Scope </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-17-answers" id="question-17-answers-C" value="C" />
+                        <label for="question-17-answers-C">C) Session Scope </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-17-answers" id="question-17-answers-D" value="D" />
+                        <label for="question-17-answers-D">D) JSP page Scope </label>
+                    </div>
+                
+                </li>
+                
+                <li>
+                
+                    <h3>It is a PHP superglobal variable which holds information about headers, path, and script location... </h3>
+                    
+                    <div>
+                        <input type="radio" name="question-18-answers" id="question-18-answers-A" value="A" />
+                        <label for="question-18-answers-A">A) $_REQUEST </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-18-answers" id="question-18-answers-B" value="B" />
+                        <label for="question-18-answers-B">B) $_POST </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-18-answers" id="question-18-answers-C" value="C" />
+                        <label for="question-18-answers-C">C) $_SERVER </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-18-answers" id="question-18-answers-D" value="D" />
+                        <label for="question-18-answers-D">D) $_FILES </label>
+                    </div>
+                
+                </li>
+                
+                <li>
+                
+                    <h3>It is a JavaScript runtime built on Chrome's V8 JavaScript engine...</h3>
+                    
+                    <div>
+                        <input type="radio" name="question-19-answers" id="question-19-answers-A" value="A" />
+                        <label for="question-19-answers-A">A) Angular </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-19-answers" id="question-19-answers-B" value="B" />
+                        <label for="question-19-answers-B">B) Apache </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-19-answers" id="question-19-answers-C" value="C" />
+                        <label for="question-19-answers-C">C) Laravel </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-19-answers" id="question-19-answers-D" value="D" />
+                        <label for="question-19-answers-D">D) Node.js </label>
+                    </div>
+                
+                </li>
+                
+                <li>
+                
+                    <h3>It is a server-side programming technology that enables the creation of dynamic, platform-independent method for building Web-based Applications...</h3>
+                    
+                    <div>
+                        <input type="radio" name="question-20-answers" id="question-20-answers-A" value="A" />
+                        <label for="question-20-answers-A">A) PHP </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-20-answers" id="question-20-answers-B" value="B" />
+                        <label for="question-20-answers-B">B) JSP </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-20-answers" id="question-20-answers-C" value="C" />
+                        <label for="question-20-answers-C">C) SERVLET </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-20-answers" id="question-20-answers-D" value="D" />
+                        <label for="question-20-answers-D">D) JAVASCRIPT </label>
+                    </div>
+                
+                </li>
+            
             
             </ol>
         
