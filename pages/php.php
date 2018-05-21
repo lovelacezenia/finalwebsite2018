@@ -60,9 +60,27 @@
 		</aside>
 		<div id="colorlib-work">
 			<div class="container">
-				<button class="accordion">Section 1</button>
+				<button class="accordion">PHP SuperGlobals variables</button>
 	<div class="panel">
-	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	  <p>
+			<ul>
+				<li> $GLOBALS <br>
+					<p>-is used to access global variables from anywhere in the PHP script (also from within functions or methods).</p>
+				</li>
+				<li> $_SERVER <br>
+					<p>-is a PHP super global variable which holds information about headers, paths, and script locations.</p>
+				</li>
+				<li>$_REQUEST <br>
+					<p>-is used to collect data after submitting an HTML form.</p>
+				</li>
+				<li>$_POST<br>
+					<p>-is widely used to collect form data after submitting an HTML form with method="post". $_POST is also widely used to pass variables</p>
+				</li>
+				<li>$_GET<br>
+					 <p>-can also be used to collect form data after submitting an HTML form with method="get". $_GET can also collect data sent in the URL</p>
+				</li>
+			</ul>
+		</p>
 	</div>
 
 	<button class="accordion">Section 2</button>
