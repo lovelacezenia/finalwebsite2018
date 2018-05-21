@@ -8,7 +8,7 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="author" content="" />
-    
+
     <!-- Animate.css -->
     <link rel="stylesheet" href="../css/animate.css">
     <!-- Icomoon Icon Fonts-->
@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="../css/owl.theme.default.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../images/webtek.png">
- 
+
 </head>
 
 <body>
@@ -98,7 +98,9 @@
             </div>
         </aside>
 
-        <br>
+        <div class="container">
+        <p style="text-align:center;"><img src="../images/videoTutorial.jpg" height="185px" width="325px" ></p>
+      </div>
         <center>
             <h1> Java Web Servlets and Java Server Pages</h1>
         <iframe width="500" height="450" src="https://www.youtube.com/embed/fqoY9mZGBac"></iframe>
@@ -174,17 +176,17 @@
                         </div>
                         <div class="col-md-4 col-pb-sm">
                             <span class="block">
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <br></span>  
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <br></span>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
-        
+
 <script src="../js/lib/jquery/jquery.min.js"></script>
  <script src="../js/modernizr-2.6.2.min.js"></script>
 	<!-- jQuery -->
-	
+
 	<!-- jQuery Easing -->
 	<script src="../js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->

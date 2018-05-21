@@ -31,6 +31,7 @@
 <link rel="stylesheet" href="../css/style.css">
 <link rel="stylesheet" href="../css/table.css">
 <link rel="stylesheet" href="../css/tab.css">
+<link rel="icon" href="../images/webtek.png">
 
 <!-- Modernizr JS -->
 <script src="../js/modernizr-2.6.2.min.js"></script>

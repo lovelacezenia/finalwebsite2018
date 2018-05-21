@@ -30,6 +30,7 @@
 
 <link rel="stylesheet" href="../css/style.css">
 <link rel="stylesheet" href="../css/tab.css">
+<link rel="icon" href="../images/webtek.png">
 
 <!-- Modernizr JS -->
 <script src="../js/modernizr-2.6.2.min.js"></script>
@@ -49,28 +50,29 @@
 		  	</ul>
 	  	</div>
 	</aside>
-	<div id="colorlib-work">
+
 		<div class="container">
+			<p style="text-align:center;"><img src="../images/notes.png" height="85px" width="85px" ></p>
 			<button class="accordion">Context Scope</button>
 <div class="panel">
   <p>
 		<ul>
 				<li> <p>Context scope or application scope starts from the point where a web application is put into service (started) till it is removed from service (shutdown) or the web application is reloaded. Parameters/attributes within the application scope will be available to all requests and sessions.</p></li>
-			
+
 			<li><p>Application object is available in a JSP page as an implicit object called application. </p></li>
-			
+
 		</ul>
 	</p>
 </div>
 
 <button class="accordion">Request Scope</button>
 <div class="panel">
-  
+
 		<ul>
 					<li><p>Request scope start from the moment an HTTP request hits a servlet in our web container and end when the servlet is done with delivering the HTTP response.</p></li>
 					<li><p>With respect to the servlet life cycle, the request scope begins on entry to a servlet’s service() method and ends on the exit from that method. </p></li>
 				</ul>
-	
+
 </div>
 
 <button class="accordion">Session Scope</button>
@@ -90,7 +92,7 @@
 </div>
 
 	</div>
-</div>
+
 
 <!-- jQuery -->
 <script src="../js/jquery.min.js"></script>

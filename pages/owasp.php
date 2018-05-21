@@ -30,7 +30,7 @@
 
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="../css/tab.css">
-
+<link rel="icon" href="../images/webtek.png">
 	<!-- Modernizr JS -->
 	<script src="../js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -49,8 +49,9 @@
 			  	</ul>
 		  	</div>
 		</aside>
-		<div id="colorlib-work">
+
 			<div class="container">
+				<p style="text-align:center;"><img src="../images/notes.png" height="85px" width="85px" ></p>
 				<button class="accordion">Injection</button>
 					<div class="panel">
 	  					<p>Injection flaws, such as SQL, NoSQL, OS, and LDAP injection, occur when untrusted data is sent to an interpreter as part of a command or query. The attacker's hostile data can trick the interpreter into executing unintended commands or accessing data without proper authorization.</p>
@@ -64,27 +65,27 @@
 				<button class="accordion">Sensitive Data Exposure</button>
 					<div class="panel">
 	  					<p>Many web applications and APIs do not properly protect sensitive data, such as financial, healthcare, and PII. Attackers may steal or modify such weakly protected data to conduct credit card fraud, identity theft, or other crimes. Sensitive data may be compromised without extra protection, such as encryption at rest or in transit, and requires special precautions when exchanged with the browser.</p>
-					</div>					
+					</div>
 
 				<button class="accordion">XML External Entities (XXE)</button>
 					<div class="panel">
 	  					<p>Many older or poorly configured XML processors evaluate external entity references within XML documents. External entities can be used to disclose internal files using the file URI handler, internal file shares, internal port scanning, remote code execution, and denial of service attacks.</p>
-					</div>	
+					</div>
 
 				<button class="accordion">Broken Access Control</button>
 					<div class="panel">
 	  					<p>Restrictions on what authenticated users are allowed to do are often not properly enforced. Attackers can exploit these flaws to access unauthorized functionality and/or data, such as access other users' accounts, view sensitive files, modify other users' data, change access rights, etc.</p>
-					</div>	
+					</div>
 
 				<button class="accordion">Security Misconfiguration</button>
 					<div class="panel">
 	  					<p>Security misconfiguration is the most commonly seen issue. This is commonly a result of insecure default configurations, incomplete or ad hoc configurations, open cloud storage, misconfigured HTTP headers, and verbose error messages containing sensitive information. Not only must all operating systems, frameworks, libraries, and applications be securely configured, but they must be patched/upgraded in a timely fashion.</p>
-					</div>	
+					</div>
 
 				<button class="accordion">Cross-Site Scripting (XSS)</button>
 					<div class="panel">
 	  					<p>XSS flaws occur whenever an application includes untrusted data in a new web page without proper validation or escaping, or updates an existing web page with user-supplied data using a browser API that can create HTML or JavaScript. XSS allows attackers to execute scripts in the victim's browser which can hijack user sessions, deface web sites, or redirect the user to malicious sites.</p>
-					</div>	
+					</div>
 
 				<button class="accordion">Insecure Deserialization</button>
 					<div class="panel">
@@ -99,9 +100,9 @@
 				<button class="accordion">Insufficient Logging and Monitoring</button>
 					<div class="panel">
 	  					<p>Insufficient logging and monitoring, coupled with missing or ineffective integration with incident response, allows attackers to further attack systems, maintain persistence, pivot to more systems, and tamper, extract, or destroy data. Most breach studies show time to detect a breach is over 200 days, typically detected by external parties rather than internal processes or monitoring.</p>
-					</div>	
+					</div>
 			</div>
-		</div>
+
 
 	<!-- jQuery -->
 	<script src="../js/jquery.min.js"></script>

@@ -30,7 +30,7 @@
 
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="../css/tab.css">
-
+<link rel="icon" href="../images/webtek.png">
 	<!-- Modernizr JS -->
 	<script src="../js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -49,8 +49,9 @@
 			  	</ul>
 		  	</div>
 		</aside>
-		<div id="colorlib-work">
+
 			<div class="container">
+				<p style="text-align:center;"><img src="../images/notes.png" height="85px" width="85px" ></p>
 				<button class="accordion">Java Web Servlets</button>
 					<div class="panel">
 					  <p>
@@ -113,7 +114,6 @@
 						</p>
 					</div>
 		</div>
-	</div>
 
 	<!-- jQuery -->
 	<script src="../js/jquery.min.js"></script>
