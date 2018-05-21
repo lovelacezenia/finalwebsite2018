@@ -103,16 +103,17 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     
-    <title>PHP Quiz</title>
+    <title>Quiz</title>
     
-    <link rel="stylesheet" type="text/css" href="website/css/style2.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style2.css" />
 </head>
 
 <body>
 
-    <div id="page-wrap">
+        <h1>QUIZ</h1>
+                
 
-      <img src="../images/quiz.png">
+    <div id="page-wrap">
         
         <form action="score.php" method="post" id="quiz">
         
@@ -249,40 +250,17 @@
                 </li>
             
             </ol>
+        
+
+        <div id="buttons" align="center">
              <input type="button" name="b1" value="prev" onclick="location.href='quiz.php'">
             <input type="button" name="b2" value="next" onclick="location.href='nextquiz.php'">
-
-
-          <input type="submit" value="Submit Quiz" id="sub"/>
-        
-        </form>
-    
+        </div>
+        <div id="submit" align="center">
+          <input type="submit" value="Submit Quiz"/>
+        </div>
     </div>
-
-    <footer>
-            <div id="footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4 col-pb-sm">
-                            <div class="row">
-                                <div class="col-md-15">
-                                    <h2>Web Systems and Technologies</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-pb-sm">
-                            <p>9325A | 1:00 - 2:00 TF</p>
-                        </div>
-                        <div class="col-md-4 col-pb-sm">
-                            <span class="block">
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <br></span>  
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    
-    </div>
+    </form>
 
 
 

@@ -4,13 +4,9 @@
 	 http://css-tricks.com
 */
 
-*					{ margin: 0; padding: 0;}
-body				{ font: 14px Georgia, serif;}
-
-
 #page-wrap		    { width: 1300px; margin: center; }
 
-h1                  { margin: 5px 70px 20px 600px; font: 30px Georgia, Serif; text-transform: uppercase; letter-spacing: 3px;}
+h1                 { margin: 5px 70px 20px 600px; font: 30px Georgia, Serif; text-transform: uppercase; letter-spacing: 3px;}
 
 
 #quiz input {
@@ -44,9 +40,28 @@ h1                  { margin: 5px 70px 20px 600px; font: 30px Georgia, Serif; te
 }
 
 #results {
-    font: 30px Georgia, Serif;
+    font: 40px Georgia, Serif;
     margin: 10px 70px 20px 670px;
-
 }
 
+#buttons :hover {
+   background: #6f8ebf;
+  background-image: -webkit-linear-gradient(top, #6f8ebf, #424954);
+  background-image: -moz-linear-gradient(top, #6f8ebf, #424954);
+  background-image: -ms-linear-gradient(top, #6f8ebf, #424954);
+  background-image: -o-linear-gradient(top, #6f8ebf, #424954);
+  background-image: linear-gradient(to bottom, #6f8ebf, #424954);
+  text-decoration: none;
+}
+
+#submit :hover{
+  background: #8f6678;
+  background-image: -webkit-linear-gradient(top, #8f6678, #db5858);
+  background-image: -moz-linear-gradient(top, #8f6678, #db5858);
+  background-image: -ms-linear-gradient(top, #8f6678, #db5858);
+  background-image: -o-linear-gradient(top, #8f6678, #db5858);
+  background-image: linear-gradient(to bottom, #8f6678, #db5858);
+  text-decoration: none;
+
+}
 
