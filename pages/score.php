@@ -128,16 +128,18 @@
             if (!isset($answer4))  {$answer4 = 'no answer';}
             $answer5 = $_POST['question-5-answers'];
             if (!isset($answer5))  {$answer5 = 'no answer';}
-            $answer1 = $_POST['question-6-answers'];
+            $answer6 = $_POST['question-6-answers'];
             if (!isset($answer6))  {$answer6 = 'no answer';}
-            $answer2 = $_POST['question-7-answers'];
+            $answer7 = $_POST['question-7-answers'];
             if (!isset($answer7))  {$answer7 = 'no answer';}
-            $answer3 = $_POST['question-8-answers'];
+            $answer8 = $_POST['question-8-answers'];
             if (!isset($answer8))  {$answer8 = 'no answer';}
-            $answer4 = $_POST['question-9-answers'];
+            $answer9 = $_POST['question-9-answers'];
             if (!isset($answer9))  {$answer9 = 'no answer';}
-            $answer5 = $_POST['question-10-answers'];
+            $answer10 = $_POST['question-10-answers'];
             if (!isset($answer10))  {$answer10 = 'no answer';}
+            $answer11 = $_POST['question-11-answers'];
+            if (!isset($answer11))  {$answer11 = 'no answer';}
         
             $totalCorrect = 0;
             
@@ -146,20 +148,20 @@
             if ($answer3 == "C") { $totalCorrect++; }
             if ($answer4 == "D") { $totalCorrect++; }
             if ($answer5 == "B") { $totalCorrect++; }
-            if ($answer1 == "C") { $totalCorrect++; }
-            if ($answer2 == "A") { $totalCorrect++; }
-            if ($answer3 == "B") { $totalCorrect++; }
-            if ($answer4 == "C") { $totalCorrect++; }
-            if ($answer5 == "A") { $totalCorrect++; }
-            
-            echo "<div id='results'>$totalCorrect / 5 </div>";
+            if ($answer6 == "C") { $totalCorrect++; }
+            if ($answer7 == "A") { $totalCorrect++; }
+            if ($answer8 == "B") { $totalCorrect++; }
+            if ($answer9 == "C") { $totalCorrect++; }
+            if ($answer10 == "A") { $totalCorrect++; }
+            if ($answer11 == "B") { $totalCorrect++; }
+            echo "<div id='results'>$totalCorrect / 20 </div>";
             
         ?>
         <div id="button1" align="center">
 	
     <input type="button" name="b1" value="TAKE QUIZ AGAIN" onclick="location.href='quiz.php'">
 	</div>
-	 
+
 	  <script src="../js/lib/jquery/jquery.min.js"></script>
  <script src="../js/modernizr-2.6.2.min.js"></script>
     <!-- jQuery -->
