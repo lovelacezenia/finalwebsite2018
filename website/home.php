@@ -162,13 +162,17 @@
 					<div class="row">
 						<div class="col-md-4 col-pb-sm">
 							<div class="row">
-								<div class="col-md-10">
+								<div class="col-md-15">
 									<h2>Web Systems and Technologies</h2>
-									<p>9325A | 1:00 - 2:00 TF</p>
-									<span class="block">
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <br></span>  
 								</div>
 							</div>
+						</div>
+						<div class="col-md-4 col-pb-sm">
+							<p>9325A | 1:00 - 2:00 TF</p>
+						</div>
+						<div class="col-md-4 col-pb-sm">
+							<span class="block">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <br></span>  
 						</div>
 					</div>
 				</div>
