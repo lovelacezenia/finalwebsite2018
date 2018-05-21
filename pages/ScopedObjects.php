@@ -13,7 +13,7 @@
 	<link rel="shortcut icon" href="favicon.ico">
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,700" rel="stylesheet">
-	
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="../css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -29,7 +29,7 @@
 	<link rel="stylesheet" href="../css/owl.theme.default.min.css">
 
 	<link rel="stylesheet" href="../css/style.css">
-	
+
 	<!-- Modernizr JS -->
 	<script src="../js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -39,7 +39,7 @@
 
 	</head>
 	<body>
-	
+
 		<aside id="colorlib-hero">
 			<div class="flexslider">
 				<ul class="slides">
@@ -60,40 +60,66 @@
 		</aside>
 		<div id="colorlib-work">
 			<div class="container">
-				<div class="row row-padded-bottom">
-					<div class="col-md-6 animate-box">
-					<h1>Scoped Objects(in Java Web)</h1>
-					<p>-Object given a name and exposed in a given scope.</p>
+				<button class="accordion">PHP SuperGlobals variables</button>
+	<div class="panel">
+		<p>
+			<ul>
+				<li> $GLOBALS <br>
+					<p>is used to access global variables from anywhere in the PHP script (also from within functions or methods).</p>
+				</li>
+				<li> $_SERVER <br>
+					<p>is a PHP super global variable which holds information about headers, paths, and script locations.</p>
+				</li>
+				<li>$_REQUEST <br>
+					<p>is used to collect data after submitting an HTML form.</p>
+				</li>
+				<li>$_POST<br>
+					<p>is widely used to collect form data after submitting an HTML form with method="post". $_POST is also widely used to pass variables</p>
+				</li>
+				<li>$_GET<br>
+					 <p>can also be used to collect form data after submitting an HTML form with method="get". $_GET can also collect data sent in the URL</p>
+				</li>
+				<li>$_FILES</li>
+				<li>$_ENV</li>
+				<li>$_COOKIE</li>
+				<li>$_SESSION</li>
+			</ul>
+		</p>
+	</div>
 
-					<h1>Types of Scoped Object:</h1>
-					<h2>1. Context Scope</h2>
-					<p>-Starts from the point where a web application is put into service (started) till it is removed from service (shutdown) or the web application is reloaded. Parameters/attributes within the application scope will be available to all requests and sessions.</p> 
-					<p>-Available to everything as long as the application is running</p>
-					<p>-Represents by Servlet Context</p>
-				    <h2>2. Request Scope</h2>
-				    <p>-Start from the moment an HTTP request hits a servlet in our web container and end when the servlet is done with delivering the HTTP response.</p>
+	<button class="accordion">Database Extensions</button>
+	<div class="panel">
+		<p>
+			Abstraction Layer:
+			<ul>
+						<li>DBA — Database ( dbm style) Abstraction Layer</li>
+						<li> dbx</li>
+						<li> ODBC — ODBC (Unified)</li>
+						<li>	PDO — PHP Data Objects</li>
+					</ul>
+		</p>
+	</div>
 
-						
-					</div>
-					<div class="col-md-6 col-md-push-1 animate-box">
-						<div class="work-detail">
-						<h3>3. Session Scope</h3>
-						<p>-A session scope starts when a client (e.g. browser window) establishes connection with our web application till the point where the browser window is closed.</p>
-						<p>-Session scope spans across multiple requests from the same client.</p>
-                   		<p>-Session scope is denoted by javax.servlet.http.HttpSession interface.</p>
-						<p>-Session object is available in a JSP page as an implicit object called session.</p> 
-						<p>-In a servlet, you can get Session object by calling request.getSession().</p>
-						<h3>4. JSP page Scope</h3>
-						<p>-The page scope restricts the scpoe and lifetime of attributes to the same page where it was created.</p>
-						<p>-It is available in a JSP page as an implicit object called pageScope.</p>
+	<button class="accordion">Way to delimit strings</button>
+	<div class="panel">
+		<p>
+			<ul>
+			<li>Heredoc <br>
+				<p>- A third way to delimit strings is the heredoc syntax: <<<. After this operator, an identifier is provided, then a newline. The string itself follows, and then the same identifier again to close the quotation. </p>
+				</li>
+					<li>Nowdoc <br>
+			<p>- Are to single-quote</p>
+			</li>
+	</ul>
+	</p>
+	</div>
 
-							
+	<button class="accordion">Section 3</button>
+	<div class="panel">
+		<p>adad</p>
+	</div>
 
-					</div>
-				</div>
-			
-		  </div>
-				
+
 		</div>
 	</div>
 

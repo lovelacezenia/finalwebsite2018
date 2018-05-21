@@ -13,7 +13,7 @@
 	<link rel="shortcut icon" href="favicon.ico">
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,700" rel="stylesheet">
-	
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="../css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -29,7 +29,7 @@
 	<link rel="stylesheet" href="../css/owl.theme.default.min.css">
 
 	<link rel="stylesheet" href="../css/style.css">
-	
+
 	<!-- Modernizr JS -->
 	<script src="../js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -59,20 +59,68 @@
 		</aside>
 		<div id="colorlib-work">
 			<div class="container">
-				<div class="row row-padded-bottom">
-					<div class="col-md-6 animate-box">
-						<p>Why do we need to track the session?</p>
-						<p>Answer: Since HTTP is state less protocol, and when you refresh the page, it looses everything, which your project should not</p>
-						<p>To handle session in PHP, we need to use $_SESSION global variable.</p>
-						<h1>Some functions in PHP that comes handy in session tracking:</h1>
-						<h2>1. session_start()</h2>
-    					<h2>2. isset()</h2>
-    					<h2>3. unset()</h2>
+				<button class="accordion">PHP SuperGlobals variables</button>
+	<div class="panel">
+	  <p>
+			<ul>
+				<li> $GLOBALS <br>
+					<p>is used to access global variables from anywhere in the PHP script (also from within functions or methods).</p>
+				</li>
+				<li> $_SERVER <br>
+					<p>is a PHP super global variable which holds information about headers, paths, and script locations.</p>
+				</li>
+				<li>$_REQUEST <br>
+					<p>is used to collect data after submitting an HTML form.</p>
+				</li>
+				<li>$_POST<br>
+					<p>is widely used to collect form data after submitting an HTML form with method="post". $_POST is also widely used to pass variables</p>
+				</li>
+				<li>$_GET<br>
+					 <p>can also be used to collect form data after submitting an HTML form with method="get". $_GET can also collect data sent in the URL</p>
+				</li>
+				<li>$_FILES</li>
+				<li>$_ENV</li>
+				<li>$_COOKIE</li>
+				<li>$_SESSION</li>
+			</ul>
+		</p>
+	</div>
 
-					</div>
-					</div>
-				</div>
-			</div>
+	<button class="accordion">Database Extensions</button>
+	<div class="panel">
+	  <p>
+			Abstraction Layer:
+			<ul>
+						<li>DBA — Database ( dbm style) Abstraction Layer</li>
+						<li> dbx</li>
+						<li> ODBC — ODBC (Unified)</li>
+						<li>	PDO — PHP Data Objects</li>
+					</ul>
+		</p>
+	</div>
+
+	<button class="accordion">Way to delimit strings</button>
+	<div class="panel">
+	  <p>
+			<ul>
+			<li>Heredoc <br>
+				<p>- A third way to delimit strings is the heredoc syntax: <<<. After this operator, an identifier is provided, then a newline. The string itself follows, and then the same identifier again to close the quotation. </p>
+				</li>
+					<li>Nowdoc <br>
+			<p>- Are to single-quote</p>
+			</li>
+</ul>
+	</p>
+	</div>
+
+	<button class="accordion">Section 3</button>
+	<div class="panel">
+	  <p>adad</p>
+	</div>
+
+
+		</div>
+	</div>
 		</body>
 
 	<!-- jQuery -->
@@ -95,4 +143,3 @@
 
 	</body>
 </html>
-
