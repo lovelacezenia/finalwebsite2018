@@ -249,6 +249,9 @@
                 </li>
             
             </ol>
+             <input type="button" name="b1" value="prev" onclick="location.href='quiz.php'">
+            <input type="button" name="b2" value="next" onclick="location.href='nextquiz.php'">
+
 
           <input type="submit" value="Submit Quiz" id="sub"/>
         
