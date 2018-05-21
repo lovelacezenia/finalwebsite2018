@@ -48,89 +48,102 @@
 			  	</ul>
 		  	</div>
 		</aside>
-		<div id="colorlib-work">
-			<div class="container">
-				<button class="accordion">PHP SuperGlobals variables</button>
-	<div class="panel">
-	  <p>
-			<ul>
-				<li> $GLOBALS <br>
-					<p>is used to access global variables from anywhere in the PHP script (also from within functions or methods).</p>
-				</li>
-				<li> $_SERVER <br>
-					<p>is a PHP super global variable which holds information about headers, paths, and script locations.</p>
-				</li>
-				<li>$_REQUEST <br>
-					<p>is used to collect data after submitting an HTML form.</p>
-				</li>
-				<li>$_POST<br>
-					<p>is widely used to collect form data after submitting an HTML form with method="post". $_POST is also widely used to pass variables</p>
-				</li>
-				<li>$_GET<br>
-					 <p>can also be used to collect form data after submitting an HTML form with method="get". $_GET can also collect data sent in the URL</p>
-				</li>
-				<li>$_FILES</li>
-				<li>$_ENV</li>
-				<li>$_COOKIE</li>
-				<li>$_SESSION</li>
-			</ul>
-		</p>
-	</div>
-
-	<button class="accordion">Database Extensions</button>
-	<div class="panel">
-	  <p>
-			Abstraction Layer:
-			<ul>
-						<li>DBA — Database ( dbm style) Abstraction Layer</li>
-						<li> dbx</li>
-						<li> ODBC — ODBC (Unified)</li>
-						<li>	PDO — PHP Data Objects</li>
-					</ul>
-		</p>
-	</div>
-
-	<button class="accordion">Way to delimit strings</button>
-	<div class="panel">
-	  <p>
-			<ul>
-			<li>Heredoc <br>
-				<p>- A third way to delimit strings is the heredoc syntax: <<<. After this operator, an identifier is provided, then a newline. The string itself follows, and then the same identifier again to close the quotation. </p>
-				</li>
-					<li>Nowdoc <br>
-			<p>- Are to single-quote</p>
+		<div class="container">
+			<button class="accordion">PHP SuperGlobals variables</button>
+<div class="panel">
+  <p>
+		<ul>
+			<li> $GLOBALS <br>
+				<p>is used to access global variables from anywhere in the PHP script (also from within functions or methods).</p>
 			</li>
-</ul>
+			<li> $_SERVER <br>
+				<p>is a PHP super global variable which holds information about headers, paths, and script locations.</p>
+			</li>
+			<li>$_REQUEST <br>
+				<p>is used to collect data after submitting an HTML form.</p>
+			</li>
+			<li>$_POST<br>
+				<p>is widely used to collect form data after submitting an HTML form with method="post". $_POST is also widely used to pass variables</p>
+			</li>
+			<li>$_GET<br>
+				 <p>can also be used to collect form data after submitting an HTML form with method="get". $_GET can also collect data sent in the URL</p>
+			</li>
+			<li>$_FILES</li>
+			<li>$_ENV</li>
+			<li>$_COOKIE</li>
+			<li>$_SESSION</li>
+		</ul>
 	</p>
+</div>
+
+<button class="accordion">Database Extensions</button>
+<div class="panel">
+  <p>
+		Abstraction Layer:
+		<ul>
+					<li>DBA — Database ( dbm style) Abstraction Layer</li>
+					<li> dbx</li>
+					<li> ODBC — ODBC (Unified)</li>
+					<li>	PDO — PHP Data Objects</li>
+				</ul>
+	</p>
+</div>
+
+<button class="accordion">Way to delimit strings</button>
+<div class="panel">
+  <p>
+		<ul>
+		<li>Heredoc <br>
+			<p>- A third way to delimit strings is the heredoc syntax: <<<. After this operator, an identifier is provided, then a newline. The string itself follows, and then the same identifier again to close the quotation. </p>
+			</li>
+				<li>Nowdoc <br>
+		<p>- Are to single-quote</p>
+		</li>
+</ul>
+</p>
+</div>
+
+<button class="accordion">Section 3</button>
+<div class="panel">
+  <p>adad</p>
+</div>
+
+
 	</div>
+</div>
 
-	<button class="accordion">Section 3</button>
-	<div class="panel">
-	  <p>adad</p>
-	</div>
+<!-- jQuery -->
+<script src="../js/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="../js/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="../js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="../js/jquery.waypoints.min.js"></script>
+<!-- Flexslider -->
+<script src="../js/jquery.flexslider-min.js"></script>
+<!-- Counters -->
+<script src="../js/jquery.countTo.js"></script>
+<!-- Owl Carousel -->
+<script src="../js/owl.carousel.min.js"></script>
 
+<!-- Main JS (Do not remove) -->
+<script src="../js/main.js"></script>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
 
-		</div>
-	</div>
-		</body>
-
-	<!-- jQuery -->
-	<script src="../js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="../js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="../js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="../js/jquery.waypoints.min.js"></script>
-	<!-- Flexslider -->
-	<script src="../js/jquery.flexslider-min.js"></script>
-	<!-- Counters -->
-	<script src="../js/jquery.countTo.js"></script>
-	<!-- Owl Carousel -->
-	<script src="../js/owl.carousel.min.js"></script>
-
-	<!-- Main JS (Do not remove) -->
-	<script src="../js/main.js"></script>
-
-	</body>
-</html>
+for (i = 0; i < acc.length; i++) {
+		acc[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var panel = this.nextElementSibling;
+				if (panel.style.display === "block") {
+						panel.style.display = "none";
+				} else {
+						panel.style.display = "block";
+				}
+		});
+}
+</script>
+</body>
+ </html>
