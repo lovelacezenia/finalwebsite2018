@@ -53,55 +53,53 @@
 			<div class="container">
 				<button class="accordion">Node JS</button>
 					<div class="panel">
-	  					<p>Node.js is an open source server environment that is free and runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.). It can open, read, write, delete files on the server. <p>
+	  					<p>Node.js is an open source server environment that is free and runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.). It can open, read, write, delete files on the server. 
+	  					<p>
 					</div>
 
 				<button class="accordion">Modules in Node JS</button>
 					<div class="panel">
 	  					<p>Node.js has a set of built-in modules which you can use without any further installation.
-						To include a module, use the require() function with the name of the module itself</p>
+						To include a module, use the require() function with the name of the module itself.</p>
+						
 						<p>Example: var http = require('http');</p>
 					</div>
 
-				<button class="accordion"></button>
+				<button class="accordion">URL Module in Node JS</button>
 					<div class="panel">
-	  					<p></p>
+	  					<p>The URL module splits up a web address into readable parts. To include the URL module, use the require() method:</p>
+	  					
+	  					<p>Example: var url = require('url');</p>
 					</div>					
 
-				<button class="accordion"></button>
+				<button class="accordion">REPL in Node JS</button>
 					<div class="panel">
-	  					<p></p>
+	  					<p>REPL stands for Read Eval Print Loop and it represents a computer environment like a Windows console or Unix/Linux shell where a command is entered and the system responds
+						with an output in an interactive mode. Node.js or Node comes bundled with a REPL
+						environment. It performs the following tasks: </p>
+							<p>● Read - Reads user's input, parses the input into JavaScript data-structure, and stores in memory. </p>
+							<p>● Eval - Takes and evaluates the data structure.</p>
+							<p>● Print - Prints the result.</p>
+							<p>● Loop - Loops the above command until the user presses ctrl-c twice.</p>
 					</div>	
 
-				<button class="accordion"></button>
+				<button class="accordion">Callback Concept</button>
 					<div class="panel">
-	  					<p>Restrictions on what authenticated users are allowed to do are often not properly enforced. Attackers can exploit these flaws to access unauthorized functionality and/or data, such as access other users' accounts, view sensitive files, modify other users' data, change access rights, etc.</p>
+	  					<p>Callback is an asynchronous equivalent for a function. A callback function is called at the
+						completion of a given task. Node makes heavy use of callbacks. All the APIs of Node are
+						written in such a way that they support callbacks.</p>
 					</div>	
 
-				<button class="accordion"></button>
+				<button class="accordion">Event Loop</button>
 					<div class="panel">
-	  					<p></p>
-					</div>	
+	  					<p>Node.js uses events heavily and it is also one of the reasons why Node.js is pretty fast
+						compared to other similar technologies. As soon as Node starts its server, it simply initiates
+						its variables, declares functions, and then simply waits for the event to occur.</p>
 
-				<button class="accordion"></button>
-					<div class="panel">
-	  					<p></p>
-					</div>	
-
-				<button class="accordion"></button>
-					<div class="panel">
-	  					<p></p>
-					</div>
-
-				<button class="accordion"></button>
-					<div class="panel">
-	  					<p></p>
-					</div>
-
-				<button class="accordion"></button>
-					<div class="panel">
-	  					<p></p>
-					</div>	
+						<p>Node.js has multiple inbuilt events available through events module and EventEmitter class which are used to bind events and event-listeners </p>
+						
+						<p>Example of creating an eventEmitter object: var eventEmitter = new events.EventEmitter(); </p>
+					</div>		
 			</div>
 		</div>
 
