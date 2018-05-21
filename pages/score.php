@@ -128,6 +128,16 @@
             if (!isset($answer4))  {$answer4 = 'no answer';}
             $answer5 = $_POST['question-5-answers'];
             if (!isset($answer5))  {$answer5 = 'no answer';}
+            $answer1 = $_POST['question-6-answers'];
+            if (!isset($answer6))  {$answer6 = 'no answer';}
+            $answer2 = $_POST['question-7-answers'];
+            if (!isset($answer7))  {$answer7 = 'no answer';}
+            $answer3 = $_POST['question-8-answers'];
+            if (!isset($answer8))  {$answer8 = 'no answer';}
+            $answer4 = $_POST['question-9-answers'];
+            if (!isset($answer9))  {$answer9 = 'no answer';}
+            $answer5 = $_POST['question-10-answers'];
+            if (!isset($answer10))  {$answer10 = 'no answer';}
         
             $totalCorrect = 0;
             
@@ -136,32 +146,20 @@
             if ($answer3 == "C") { $totalCorrect++; }
             if ($answer4 == "D") { $totalCorrect++; }
             if ($answer5 == "B") { $totalCorrect++; }
+            if ($answer1 == "C") { $totalCorrect++; }
+            if ($answer2 == "A") { $totalCorrect++; }
+            if ($answer3 == "B") { $totalCorrect++; }
+            if ($answer4 == "C") { $totalCorrect++; }
+            if ($answer5 == "A") { $totalCorrect++; }
             
             echo "<div id='results'>$totalCorrect / 5 </div>";
             
         ?>
+        <div id="button1" align="center">
 	
+    <input type="button" name="b1" value="TAKE QUIZ AGAIN" onclick="location.href='quiz.php'">
 	</div>
-	  <footer>
-            <div id="footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4 col-pb-sm">
-                            <div class="row">
-                                <div class="col-md-10">
-                                    <h2>Web Systems and Technologies</h2>
-                                    <p>9325A | 1:00 - 2:00 TF</p>
-                                    <span class="block">
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <br></span>  
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    
-    </div>
+	 
 	  <script src="../js/lib/jquery/jquery.min.js"></script>
  <script src="../js/modernizr-2.6.2.min.js"></script>
     <!-- jQuery -->
