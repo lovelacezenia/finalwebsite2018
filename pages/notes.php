@@ -120,17 +120,7 @@
 							<div class="overlay"></div>
 							<div class="desc">
 								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<h3>Java Web Servlet</h3>
-								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-6 animate-box text-center">
-						<a href="servlet.php" class="work-img" style="background-image: url(../images/servlets.png);">
-							<div class="overlay"></div>
-							<div class="desc">
-								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<h3>Java Server Pages</h3>
+								<h3>Java Web Servlet and Java Server Pages</h3>
 								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
 							</div>
 						</a>
