@@ -8,7 +8,7 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="author" content="" />
-    
+
     <!-- Animate.css -->
     <link rel="stylesheet" href="../css/animate.css">
     <!-- Icomoon Icon Fonts-->
@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="../css/owl.theme.default.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../images/webtek.png">
- 
+
 </head>
 
 <body>
@@ -156,7 +156,7 @@
 						</a>
 					</div>
 					<div class="col-md-6 animate-box text-center">
-						<a href="nodejs.php" class="work-img" style="background-image: url(../images/so.png);">
+						<a href="nodejs.php" class="work-img" style="background-image: url(../images/nodejs.jpg);">
 							<div class="overlay"></div>
 							<div class="desc">
 								<span class="icon"><i class="icon-heart-outline"></i></span>
@@ -166,7 +166,7 @@
 						</a>
 					</div>
 					<div class="col-md-6 animate-box text-center">
-						<a href="owasp.php" class="work-img" style="background-image: url(../images/so.png);">
+						<a href="owasp.php" class="work-img" style="background-image: url(../images/OWASP1.jpg);">
 							<div class="overlay"></div>
 							<div class="desc">
 								<span class="icon"><i class="icon-heart-outline"></i></span>
@@ -196,17 +196,17 @@
 						</div>
 						<div class="col-md-4 col-pb-sm">
 							<span class="block">
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <br></span>  
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <br></span>
 						</div>
 					</div>
 				</div>
 			</div>
 		</footer>
-		
+
 	<script src="../js/lib/jquery/jquery.min.js"></script>
  <script src="../js/modernizr-2.6.2.min.js"></script>
 	<!-- jQuery -->
-	
+
 	<!-- jQuery Easing -->
 	<script src="../js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
