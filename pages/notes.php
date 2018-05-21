@@ -127,16 +127,6 @@
 						</a>
 					</div>
 					<div class="col-md-6 animate-box text-center">
-						<a href="sessionhandler.php" class="work-img" style="background-image: url(../images/sh.png);">
-							<div class="overlay"></div>
-							<div class="desc">
-								<span class="icon"><i class="icon-heart-outline"></i></span>
-								<h3>Session Handling</h3>
-								<span class="read-more">Read more <i class="icon-arrow-right3"></i></span>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-6 animate-box text-center">
 						<a href="ScopedObjects.php" class="work-img" style="background-image: url(../images/so.png);">
 							<div class="overlay"></div>
 							<div class="desc">

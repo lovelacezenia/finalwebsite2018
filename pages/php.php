@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
--<html>
+<html>
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -50,9 +50,10 @@
 		  	</ul>
 	  	</div>
 	</aside>
-	<div id="colorlib-work">
-		<div class="container">
 
+
+		<div class="container">
+				<p style="text-align:center;"><img src="../images/notes.png" height="85px" width="85px" ></p>
       <button class="accordion">PHP Hypertext Preprocessor (PHP) </button>
       <div class="panel">
         <p>- is a programming language that allows web developers to create dynamic content that interacts with databases. PHP is basically used for developing web based software applications. This tutorial helps you to build your base with PHP.</p>
@@ -207,8 +208,19 @@ This is useful when you want to retrieve value of a constant, but you do not kno
 		<li>Its industry standard to follow a particular standard to being more quality in software.</li>
 </div>
 
+<button class="accordion">PHP - Sessions</button>
+<div class="panel">
+  <p>- An alternative way to make data accessible across the various pages of an entire website is to use a PHP Session.</p>
+	<p>- A session creates a file in a temporary directory on the server where registered session variables and their values are stored. This data will be available to all pages on the site during that visit.</p>
+	<p>- The location of the temporary file is determined by a setting in the <mark>php.ini</mark> file called <mark> session.save_path </mark>. Before using any session variable make sure you have setup this path.</p>
+<p>When a session is started following things happen −</P>
+	<ul>
+		<li>PHP first creates a unique identifier for that particular session which is a random string of 32 hexadecimal numbers such as 3c7foj34c3jj973hjkop2fc937e3443.</li>
+		<li> A cookie called PHPSESSID is automatically sent to the user's computer to store unique session identification string.</li>
+		<li> A file is automatically created on the server in the designated temporary directory and bears the name of the unique identifier prefixed by sess_ ie sess_3c7foj34c3jj973hjkop2fc937e3443.</li>
+</div>
 
-	</div>
+
 </div>
 
 <!-- jQuery -->
