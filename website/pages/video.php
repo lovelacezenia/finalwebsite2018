@@ -170,6 +170,30 @@
 				</div>
 			</div>
 		</div>
+
+    <footer>
+            <div id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-pb-sm">
+                            <div class="row">
+                                <div class="col-md-15">
+                                    <h2>Web Systems and Technologies</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-pb-sm">
+                            <p>9325A | 1:00 - 2:00 TF</p>
+                        </div>
+                        <div class="col-md-4 col-pb-sm">
+                            <span class="block">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <br></span>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
 <script src="../js/lib/jquery/jquery.min.js"></script>
  <script src="../js/modernizr-2.6.2.min.js"></script>
 	<!-- jQuery -->
