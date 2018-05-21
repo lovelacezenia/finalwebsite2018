@@ -140,7 +140,7 @@
                     <span class="icon"><i class="icon-params"></i></span>
                     <div class="desc">
                         <h3>Node JS</h3>
-                        <p>An open-source, cross-platform JavaScript run-time environment that executes JavaScript code server-side.</p> of
+                        <p>An open-source, cross-platform JavaScript run-time environment that executes JavaScript code server-side.</p> 
                     </div>
                 </div>
             </div>
