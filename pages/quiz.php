@@ -378,9 +378,10 @@
             </ol>
 
 
-        <div id="buttons" align="center">
-            <input type="button" name="b2" value="next" onclick="location.href='nextquiz.php'">
+        <div id="submit" align="center">
+          <input type="submit" value="Submit Quiz"/>
         </div>
+    </div>
         
     </form>
 

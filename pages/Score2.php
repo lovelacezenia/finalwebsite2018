@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Developers | Web System and Technologies</title>
+    <title>WebTech</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -98,109 +99,96 @@
             </div>
         </aside>
 
-<div id="colorlib-testimony" class="colorlib-light-grey">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center animate-box intro-heading">
-						<h2>DEVELOPERS</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<div class="row animate-box">
-							<div class="owl-carousel1">
-								<div class="item">
-									<div class="testimony-slide text-center active">
-										<figure>
-											<img src="../images/dianne.png" alt="user">
-										</figure>
-										<blockquote>
-											<p>Dianne Alyza M. Cayabyab</p>
-											<span>Front-End Developer</span>
-										</blockquote>
-									</div>
-								</div>
-								<div class="item">
-									<div class="testimony-slide text-center active">
-										<figure>
-											<img src="../images/sarah.jpg" alt="user">
-										</figure>
-										<blockquote>
-											<p> Sarah Mae E. Centino</p>
-											<span>Front-End Developer</span>
-										</blockquote>
-									</div>
-								</div>
-								<div class="item">
-									<div class="testimony-slide text-center active">
-										<figure>
-											<img src="../images/graham.png" alt="user">
-										</figure>
-										<blockquote>
-											<p>Graham Ross H. Flora</p>
-											<span>Back-End Developer</span>
-										</blockquote>
-									</div>
-								</div>
-								<div class="item">
-									<div class="testimony-slide text-center active">
-										<figure>
-											<img src="../images/lovelace.png" alt="user">
-										</figure>
-										<blockquote>
-											<p>Lovelace Zennia Luisa R. Oliva</p>
-											<span>Back-End Developer</span>
-										</blockquote>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	<footer>
-			<div id="footer">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-4 col-pb-sm">
-							<div class="row">
-								<div class="col-md-15">
-									<h2>Web Systems and Technologies</h2>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-pb-sm">
-							<p>9325A | 1:00 - 2:00 TF</p>
-						</div>
-						<div class="col-md-4 col-pb-sm">
-							<span class="block">
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <br></span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>PHP Quiz</title>
+
+	<link rel="stylesheet" type="text/css" href="../css/style2.css" />
+</head>
+
+<body>
+
+	<div id="page-wrap">
+
+		<h1>YOUR SCORE IS:</h1>
+
+        <?php
+            $answer1 = $_POST['question-1-answers'];
+            if (!isset($answer1))  {$answer1 = 'no answer';}
+            $answer2 = $_POST['question-2-answers'];
+            if (!isset($answer2))  {$answer2 = 'no answer';}
+            $answer3 = $_POST['question-3-answers'];
+            if (!isset($answer3))  {$answer3 = 'no answer';}
+            $answer4 = $_POST['question-4-answers'];
+            if (!isset($answer4))  {$answer4 = 'no answer';}
+            $answer5 = $_POST['question-5-answers'];
+            if (!isset($answer5))  {$answer5 = 'no answer';}
+            $answer6 = $_POST['question-6-answers'];
+            if (!isset($answer6))  {$answer6 = 'no answer';}
+            $answer7 = $_POST['question-7-answers'];
+            if (!isset($answer7))  {$answer7 = 'no answer';}
+            $answer8 = $_POST['question-8-answers'];
+            if (!isset($answer8))  {$answer8 = 'no answer';}
+            $answer9 = $_POST['question-9-answers'];
+            if (!isset($answer9))  {$answer9 = 'no answer';}
+            $answer10 = $_POST['question-10-answers'];
+            if (!isset($answer10))  {$answer10 = 'no answer';}
+            $answer11 = $_POST['question-11-answers'];
+            
+        
+             $totalCorrect = 0;
+
+        
+            if ($answer1 == "B") { $totalCorrect++; }
+            if ($answer2 == "C") { $totalCorrect++; }
+            if ($answer3 == "A") { $totalCorrect++; }
+            if ($answer4 == "A") { $totalCorrect++; }
+            if ($answer5 == "D") { $totalCorrect++; }
+            if ($answer6 == "B") { $totalCorrect++; }
+            if ($answer7 == "D") { $totalCorrect++; }
+            if ($answer8 == "D") { $totalCorrect++; }
+            if ($answer9 == "D") { $totalCorrect++; }
+            if ($answer10 == "A") { $totalCorrect++; }
+
+
+            echo "<div id='results'>$totalCorrect / 10 </div>";
+            
+        ?>
+        <div id="button1" align="center">
+	
+    <input type="button" name="b1" value="TAKE QUIZ AGAIN" onclick="location.href='quiz.php'">
+	</div>
+     <div id="buttons" align="center">
+            <input type="button" name="b2" value="END" onclick="location.href='notes.php'">
+        </div>
 
 	</div>
-  <!-- jQuery -->
-  	<script src="../js/jquery.min.js"></script>
-  	<!-- jQuery Easing -->
-  	<script src="../js/jquery.easing.1.3.js"></script>
-  	<!-- Bootstrap -->
-  	<script src="../js/bootstrap.min.js"></script>
-  	<!-- Waypoints -->
-  	<script src="../js/jquery.waypoints.min.js"></script>
-  	<!-- Flexslider -->
-  	<script src="../js/jquery.flexslider-min.js"></script>
-  	<!-- Counters -->
-  	<script src="../js/jquery.countTo.js"></script>
-  	<!-- Owl Carousel -->
-  	<script src="../js/owl.carousel.min.js"></script>
 
-  	<!-- Main JS (Do not remove) -->
-  	<script src="../js/main.js"></script>
+	  <script src="../js/lib/jquery/jquery.min.js"></script>
+ <script src="../js/modernizr-2.6.2.min.js"></script>
+    <!-- jQuery -->
 
+    <!-- jQuery Easing -->
+    <script src="../js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="../js/jquery.waypoints.min.js"></script>
+    <!-- Flexslider -->
+    <script src="../js/jquery.flexslider-min.js"></script>
+    <!-- Counters -->
+    <script src="../js/jquery.countTo.js"></script>
+    <!-- Owl Carousel -->
+    <script src="../js/owl.carousel.min.js"></script>
+
+    <!-- Main JS (Do not remove) -->
+    <script src="../js/main.js"></script>
 
 </body>
+
 </html>
