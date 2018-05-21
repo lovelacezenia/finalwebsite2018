@@ -100,7 +100,7 @@
 
         <br>
         <center>
-            <h1> Java Web Servlets </h1>
+            <h1> Java Web Servlets and Java Server Pages</h1>
         <iframe width="500" height="450" src="https://www.youtube.com/embed/fqoY9mZGBac"></iframe>
         </center>
 
