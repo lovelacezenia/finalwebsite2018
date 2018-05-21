@@ -43,17 +43,8 @@
 		<aside id="colorlib-hero">
 			<div class="flexslider">
 				<ul class="slides">
-			   	<li style="background-image: url(../images/cover_img_4.jpg);">
+			   	<li style="background-image: url(../images/owasp2.png);">
 			   		<div class="overlay"></div>
-			   		<div class="container">
-			   			<div class="row">
-				   			<div class="col-md-8 col-sm-12 col-xs-12 col-md-offset-2 text-center slider-text">
-				   				<div class="slider-text-inner">
-				   					<h1>OWASP Top 10 Web Application Security Risks</h1>
-				   				</div>
-				   			</div>
-				   		</div>
-			   		</div>
 			   	</li>
 			  	</ul>
 		  	</div>
