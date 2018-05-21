@@ -9,7 +9,7 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="author" content="" />
-    
+
     <!-- Animate.css -->
     <link rel="stylesheet" href="../css/animate.css">
     <!-- Icomoon Icon Fonts-->
@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="../css/owl.theme.default.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../images/webtek.png">
- 
+
 </head>
 
 <body>
@@ -105,9 +105,9 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	
+
 	<title>PHP Quiz</title>
-	
+
 	<link rel="stylesheet" type="text/css" href="../css/style2.css" />
 </head>
 
@@ -116,7 +116,7 @@
 	<div id="page-wrap">
 
 		<h1>YOUR SCORE IS:</h1>
-		
+
         <?php
             $answer1 = $_POST['question-1-answers'];
             if (!isset($answer1))  {$answer1 = 'no answer';}
@@ -128,6 +128,7 @@
             if (!isset($answer4))  {$answer4 = 'no answer';}
             $answer5 = $_POST['question-5-answers'];
             if (!isset($answer5))  {$answer5 = 'no answer';}
+
             $answer6 = $_POST['question-6-answers'];
             if (!isset($answer6))  {$answer6 = 'no answer';}
             $answer7 = $_POST['question-7-answers'];
@@ -141,13 +142,17 @@
             $answer11 = $_POST['question-11-answers'];
             if (!isset($answer11))  {$answer11 = 'no answer';}
         
+
+
+
             $totalCorrect = 0;
-            
+
             if ($answer1 == "B") { $totalCorrect++; }
             if ($answer2 == "A") { $totalCorrect++; }
             if ($answer3 == "C") { $totalCorrect++; }
             if ($answer4 == "D") { $totalCorrect++; }
             if ($answer5 == "B") { $totalCorrect++; }
+
             if ($answer6 == "C") { $totalCorrect++; }
             if ($answer7 == "A") { $totalCorrect++; }
             if ($answer8 == "B") { $totalCorrect++; }
@@ -162,10 +167,40 @@
     <input type="button" name="b1" value="TAKE QUIZ AGAIN" onclick="location.href='quiz.php'">
 	</div>
 
+
+            echo "<div id='results'>$totalCorrect / 5 </div>";
+
+        ?>
+
+	</div>
+  <div align="center">
+    <a type="button" class="btn btn-primary" href="../pages/quiz.php">Take quiz again</a>
+  </div>
+	  <footer>
+            <div id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-pb-sm">
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <h2>Web Systems and Technologies</h2>
+                                    <p>9325A | 1:00 - 2:00 TF</p>
+                                    <span class="block">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <br></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
 	  <script src="../js/lib/jquery/jquery.min.js"></script>
  <script src="../js/modernizr-2.6.2.min.js"></script>
     <!-- jQuery -->
-    
+
     <!-- jQuery Easing -->
     <script src="../js/jquery.easing.1.3.js"></script>
     <!-- Bootstrap -->
