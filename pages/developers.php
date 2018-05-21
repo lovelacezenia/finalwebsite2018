@@ -3,12 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>WebTech</title>
+    <title>Webtek</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="author" content="" />
-    
+
     <!-- Animate.css -->
     <link rel="stylesheet" href="../css/animate.css">
     <!-- Icomoon Icon Fonts-->
@@ -24,7 +24,8 @@
     <link rel="stylesheet" href="../css/owl.theme.default.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../images/webtek.png">
- 
+
+
 </head>
 
 <body>
@@ -43,15 +44,6 @@
         </div>
     </nav>
     <div id="colorlib-page">
-        <header>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <a class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
-                    </div>
-                </div>
-            </div>
-        </header>
         <aside id="colorlib-hero">
             <div class="flexslider">
                 <ul class="slides">
@@ -104,8 +96,6 @@
 					<div class="col-md-8 col-md-offset-2 text-center animate-box intro-heading">
 						<h2>DEVELOPERS</h2>
 					</div>
-				</div>
-				<div class="row">
 					<div class="col-md-12">
 						<div class="row animate-box">
 							<div class="owl-carousel1">
@@ -153,17 +143,6 @@
 										</blockquote>
 									</div>
 								</div>
-								<div class="item">
-									<div class="testimony-slide text-center active">
-										<figure>
-											<img src="../images/person3.jpg" alt="user">
-										</figure>
-										<blockquote>
-											<p>John Yves B. Ragsac</p>
-											<span></span>
-										</blockquote>
-									</div>
-								</div>
 							</div>
 						</div>
 					</div>
@@ -186,34 +165,31 @@
 						</div>
 						<div class="col-md-4 col-pb-sm">
 							<span class="block">
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <br></span>  
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <br></span>
 						</div>
 					</div>
 				</div>
 			</div>
 		</footer>
-	
+
 	</div>
-	<script src="../js/lib/jquery/jquery.min.js"></script>
- <script src="../js/modernizr-2.6.2.min.js"></script>
-	<!-- jQuery -->
-	
-	<!-- jQuery Easing -->
-	<script src="../js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="../js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="../js/jquery.waypoints.min.js"></script>
-	<!-- Flexslider -->
-	<script src="../js/jquery.flexslider-min.js"></script>
-	<!-- Counters -->
-	<script src="../js/jquery.countTo.js"></script>
-	<!-- Owl Carousel -->
-	<script src="../js/owl.carousel.min.js"></script>
+  <!-- jQuery -->
+  	<script src="../js/jquery.min.js"></script>
+  	<!-- jQuery Easing -->
+  	<script src="../js/jquery.easing.1.3.js"></script>
+  	<!-- Bootstrap -->
+  	<script src="../js/bootstrap.min.js"></script>
+  	<!-- Waypoints -->
+  	<script src="../js/jquery.waypoints.min.js"></script>
+  	<!-- Flexslider -->
+  	<script src="../js/jquery.flexslider-min.js"></script>
+  	<!-- Counters -->
+  	<script src="../js/jquery.countTo.js"></script>
+  	<!-- Owl Carousel -->
+  	<script src="../js/owl.carousel.min.js"></script>
 
-	<!-- Main JS (Do not remove) -->
-	<script src="../js/main.js"></script>
-
+  	<!-- Main JS (Do not remove) -->
+  	<script src="../js/main.js"></script>
 
 </body>
 </html>
