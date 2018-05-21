@@ -128,43 +128,42 @@
             if (!isset($answer4))  {$answer4 = 'no answer';}
             $answer5 = $_POST['question-5-answers'];
             if (!isset($answer5))  {$answer5 = 'no answer';}
+            $answer6 = $_POST['question-6-answers'];
+            if (!isset($answer6))  {$answer6 = 'no answer';}
+            $answer7 = $_POST['question-7-answers'];
+            if (!isset($answer7))  {$answer7 = 'no answer';}
+            $answer8 = $_POST['question-8-answers'];
+            if (!isset($answer8))  {$answer8 = 'no answer';}
+            $answer9 = $_POST['question-9-answers'];
+            if (!isset($answer9))  {$answer9 = 'no answer';}
+            $answer10 = $_POST['question-10-answers'];
+            if (!isset($answer10))  {$answer10 = 'no answer';}
+            $answer11 = $_POST['question-11-answers'];
+            if (!isset($answer11))  {$answer11 = 'no answer';}
+        
 
-            $totalCorrect = 0;
 
             if ($answer1 == "B") { $totalCorrect++; }
             if ($answer2 == "A") { $totalCorrect++; }
             if ($answer3 == "C") { $totalCorrect++; }
             if ($answer4 == "D") { $totalCorrect++; }
             if ($answer5 == "B") { $totalCorrect++; }
-
-            echo "<div id='results'>$totalCorrect / 5 </div>";
-
+            if ($answer6 == "C") { $totalCorrect++; }
+            if ($answer7 == "A") { $totalCorrect++; }
+            if ($answer8 == "B") { $totalCorrect++; }
+            if ($answer9 == "C") { $totalCorrect++; }
+            if ($answer10 == "A") { $totalCorrect++; }
+            if ($answer11 == "B") { $totalCorrect++; }
+            echo "<div id='results'>$totalCorrect / 20 </div>";
+            
         ?>
+        <div id="button1" align="center">
+	
+    <input type="button" name="b1" value="TAKE QUIZ AGAIN" onclick="location.href='quiz.php'">
+	</div>
 
 	</div>
-  <div align="center">
-    <a type="button" class="btn btn-primary" href="../pages/quiz.php">Take quiz again</a>
-  </div>
-	  <footer>
-            <div id="footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4 col-pb-sm">
-                            <div class="row">
-                                <div class="col-md-10">
-                                    <h2>Web Systems and Technologies</h2>
-                                    <p>9325A | 1:00 - 2:00 TF</p>
-                                    <span class="block">
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <br></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
 
-    </div>
 	  <script src="../js/lib/jquery/jquery.min.js"></script>
  <script src="../js/modernizr-2.6.2.min.js"></script>
     <!-- jQuery -->

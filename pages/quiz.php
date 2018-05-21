@@ -249,18 +249,139 @@
                     </div>
 
                 </li>
+                 <li>
+                
+                    <h3>The attacker's hostile data can trick the interpreter into executing unintended commands or accessing data without proper authorization..</h3>
+                    
+                    <div>
+                        <input type="radio" name="question-6-answers" id="question-6-answers-A" value="A" />
+                        <label for="question-6-answers-A">A)  Broken Authentication </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-6-answers" id="question-6-answers-B" value="B" />
+                        <label for="question-6-answers-B">B) Cross-Site Scripting (XSS) </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-6-answers" id="question-6-answers-C" value="C" />
+                        <label for="question-6-answers-C">C) Injection </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-6-answers" id="question-6-answers-D" value="D" />
+                        <label for="question-6-answers-D">D) Security Misconfiguration </label>
+                    </div>
+                
+                </li>
+                 <li>
+                
+                    <h3>Most commonly seen issue. This is commonly a result of insecure default configurations, incomplete or ad hoc configurations, open cloud storage, misconfigured HTTP headers, and verbose error messages containing sensitive information...</h3>
+                    
+                    <div>
+                        <input type="radio" name="question-7-answers" id="question-7-answers-A" value="A" />
+                        <label for="question-7-answers-A">A) Security Misconfiguration </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-7-answers" id="question-7-answers-B" value="B" />
+                        <label for="question-7-answers-B">B) Insufficient Logging and Monitoring </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-7-answers" id="question-7-answers-C" value="C" />
+                        <label for="question-7-answers-C">C) Broken Access Control </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-7-answers" id="question-7-answers-D" value="D" />
+                        <label for="question-7-answers-D">D) Sensitive Data Exposure </label>
+                    </div>
+                
+                </li>
+                <li>
+                
+                    <h3>Attackers may steal or modify such weakly protected data to conduct credit card fraud, identity theft, or other crimes...</h3>
+                    
+                    <div>
+                        <input type="radio" name="question-8-answers" id="question-8-answers-A" value="A" />
+                        <label for="question-8-answers-A">A) Broken Access Control </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-8-answers" id="question-8-answers-B" value="B" />
+                        <label for="question-8-answers-B">B) Sensitive Data Exposure </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-8-answers" id="question-8-answers-C" value="C" />
+                        <label for="question-8-answers-C">C) Injection </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-8-answers" id="question-8-answers-D" value="D" />
+                        <label for="question-8-answers-D">D) Insecure Deserialization </label>
+                    </div>
+                
+                </li>
+                <li>
 
+                    <h3> Which of the following is true about __filename global object?</h3>
+                    
+                    <div>
+                        <input type="radio" name="question-9-answers" id="question-9-answers-A" value="A" />
+                        <label for="question-9-answers-A">A) Represents the filename of the code being executed. </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-9-answers" id="question-9-answers-B" value="B" />
+                        <label for="question-9-answers-B">B) Represents the resolved absolute path of code file. </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-9-answers" id="question-9-answers-C" value="C" />
+                        <label for="question-9-answers-C">C) Both of A and B. </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-9-answers" id="question-9-answers-D" value="D" />
+                        <label for="question-9-answers-D">D) None of the Above. </label>
+                    </div>
+                
+                </li>
+            
+                <li>
+
+                    <h3>  Which of the following code is used to get session in servlet? </h3>
+                    
+                    <div>
+                        <input type="radio" name="question-10-answers" id="question-10-answers-A" value="A" />
+                        <label for="question-10-answers-A">A) request.getSession() </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-10-answers" id="question-10-answers-B" value="B" />
+                        <label for="question-10-answers-B">B) response.getSession() </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-10-answers" id="question-10-answers-C" value="C" />
+                        <label for="question-10-answers-C">C) new Session() </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-10-answers" id="question-10-answers-D" value="D" />
+                        <label for="question-10-answers-D">D)  None of the above. </label>
+                    </div>
+                
+                </li>
             </ol>
 
 
         <div id="buttons" align="center">
-             <input type="button" name="b1" value="prev" onclick="location.href='quiz.php'">
             <input type="button" name="b2" value="next" onclick="location.href='nextquiz.php'">
         </div>
-        <div id="submit" align="center">
-          <input type="submit" value="Submit Quiz"/>
-        </div>
-    </div>
+        
     </form>
 
 
