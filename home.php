@@ -119,7 +119,7 @@
                 <div class="services">
                     <span class="icon"><i class="icon-diamond"></i></span>
                     <div class="desc">
-                        <h3>Java Servlets</h3>
+                        <h3>Java Web Servlets</h3>
                         <p>A java program that extends the capabilities of a server.</p>
                     </div>
                 </div>
