@@ -29,6 +29,7 @@
 	<link rel="stylesheet" href="../css/owl.theme.default.min.css">
 
 	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/tab.css">
 
 	<!-- Modernizr JS -->
 	<script src="../js/modernizr-2.6.2.min.js"></script>
@@ -39,89 +40,81 @@
 
 	</head>
 	<body>
-
 		<aside id="colorlib-hero">
 			<div class="flexslider">
 				<ul class="slides">
-			   	<li style="background-image: url(images/cover_img_4.jpg);">
+			   	<li style="background-image: url(../images/JAVEE.png);">
 			   		<div class="overlay"></div>
-			   		<div class="container">
-			   			<div class="row">
-				   			<div class="col-md-8 col-sm-12 col-xs-12 col-md-offset-2 text-center slider-text">
-				   				<div class="slider-text-inner">
-				   					<h1>Servlets</h1>
-				   				</div>
-				   			</div>
-				   		</div>
-			   		</div>
 			   	</li>
 			  	</ul>
 		  	</div>
 		</aside>
 		<div id="colorlib-work">
 			<div class="container">
-				<button class="accordion">PHP SuperGlobals variables</button>
-	<div class="panel">
-	  <p>
-			<ul>
-				<li> $GLOBALS <br>
-					<p>is used to access global variables from anywhere in the PHP script (also from within functions or methods).</p>
-				</li>
-				<li> $_SERVER <br>
-					<p>is a PHP super global variable which holds information about headers, paths, and script locations.</p>
-				</li>
-				<li>$_REQUEST <br>
-					<p>is used to collect data after submitting an HTML form.</p>
-				</li>
-				<li>$_POST<br>
-					<p>is widely used to collect form data after submitting an HTML form with method="post". $_POST is also widely used to pass variables</p>
-				</li>
-				<li>$_GET<br>
-					 <p>can also be used to collect form data after submitting an HTML form with method="get". $_GET can also collect data sent in the URL</p>
-				</li>
-				<li>$_FILES</li>
-				<li>$_ENV</li>
-				<li>$_COOKIE</li>
-				<li>$_SESSION</li>
-			</ul>
-		</p>
-	</div>
+				<button class="accordion">Java Web Servlets</button>
+					<div class="panel">
+					  <p>
+							<ul>
+								<li> Java Object based on the Servlet API </li>
+								<li> Runs in a server application to answer client requests; technically, servlets are not tied to a specific client-server protocol, but they are most commonly used with HTTP and the term „servlet‟ is often used in the context of an “HTTP Servlet” </li>
+								<li> Web-tier components in the Java EE architecture. </li>
+								<li> Runs in, and is managed by, a web-tier container called the „Servlet Container‟ </li>
+								<li> Mapped to URLs to which clients send requests </li>
+							</ul>
+						</p>
+					</div>
 
-	<button class="accordion">Database Extensions</button>
-	<div class="panel">
-	  <p>
-			Abstraction Layer:
-			<ul>
-						<li>DBA — Database ( dbm style) Abstraction Layer</li>
-						<li> dbx</li>
-						<li> ODBC — ODBC (Unified)</li>
-						<li>	PDO — PHP Data Objects</li>
-					</ul>
-		</p>
-	</div>
+				<button class="accordion">Servlet Processing</button>
+					<div class="panel">
+					  <p>
+							<ul>
+								<li> Client sends a request to a web server URL that is mapped to a servlet. Web server passes on the request to the servlet container  </li>
+								<li> Servlet container checks if servlet is already loaded </li>
+								<li> If it is not yet loaded, servlet container loads the servlet class and instantiates the servlet, and calls its init method.  </li>
+								<li> Servlet container invokes the servlet‟s service method, passing request and response objects as arguments </li>
+								<li> Servlet processes the request using the response object to create the response, which is returned by the servlet container to the web server, which in turn sends the response to the client </li>
+								<li> Subsequent request to the servlet will not require servlet re-instantiation, unless the servlet has been unloaded; before a servlet is unloaded, the servlet container invokes its destroy method. </li>
+							</ul>
+						</p>
+					</div>
 
-	<button class="accordion">Way to delimit strings</button>
-	<div class="panel">
-	  <p>
-			<ul>
-			<li>Heredoc <br>
-				<p>- A third way to delimit strings is the heredoc syntax: <<<. After this operator, an identifier is provided, then a newline. The string itself follows, and then the same identifier again to close the quotation. </p>
-				</li>
-					<li>Nowdoc <br>
-			<p>- Are to single-quote</p>
-			</li>
-</ul>
-	</p>
-	</div>
+				<button class="accordion">Java Servlets Method</button>
+					<div class="panel">
+					  	<p>
+					  		<ul>
+					  			<li> init(config) - Invoked once on the servlet by the servlet container when the servlet is instantiated; can be used by the servlet for one-time startup initialization </li>
+					  			<li> service(request, response) - Invoked each time the servlet is called upon to process a request (typically on a separate thread for each call) </li>
+					  			<li> Destroy() - Invoked on the servlet by the servlet container when the servlet is to be unloaded (e.g. when the application is stopped or undeployed); can be used by the servlet for clean-up processing (e.g. resource deallocation) </li>
+					  		</ul>
+						</p>
+					</div>
 
-	<button class="accordion">Section 3</button>
-	<div class="panel">
-	  <p>adad</p>
-	</div>
+				<button class="accordion">Java Server Pages</button>
+					<div class="panel">
+					  	<p>
+					  		<ul>
+					  			<li> Simply an HTML web page that contains additional bits of code that execute application logic to generate dynamic content. </li>
+					  			<li> Java Server Pages Actions (JSP tags) perform a variety of functions and extend the capabilities of JSP. </li>
+					  			<li> Java Server Pages Actions use XML-like syntax, and are used to manage JavaBeans component. </li>
+					  			<li> Directives are instructions that are processed by the JSP engine when the page is compiled to a servlet. </li>
+					  		</ul>
+						</p>
+					</div>
 
-
+				<button class="accordion">JSP Features</button>
+					<div class="panel">
+					  	<p>
+					  		<ul>
+					  			<li> Text-based document capable of generating both static and dynamic content (typically intermixed) </li>
+					  			<li> Mark-up based document syntax (JSP-style or XML-style), combining (X) HTML elements as well as standard and custom JSP elements; thus, web page authors can feel right “at home” with the mark-up syntax. </li>
+					  			<li> Embedded Java Coding support via “scriptlets” </li>
+					  			<li> Template text are converted into JSPWriter </li>
+					  		</ul>
+						</p>
+					</div>
 		</div>
 	</div>
+
 	<!-- jQuery -->
 	<script src="../js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
@@ -139,6 +132,21 @@
 
 	<!-- Main JS (Do not remove) -->
 	<script src="../js/main.js"></script>
+	<script>
+	var acc = document.getElementsByClassName("accordion");
+	var i;
 
+	for (i = 0; i < acc.length; i++) {
+			acc[i].addEventListener("click", function() {
+					this.classList.toggle("active");
+					var panel = this.nextElementSibling;
+					if (panel.style.display === "block") {
+							panel.style.display = "none";
+					} else {
+							panel.style.display = "block";
+					}
+			});
+	}
+	</script>
 	</body>
 </html>
