@@ -199,26 +199,26 @@
                 
                 <li>
                 
-                    <h3>It is a JavaScript runtime built on Chrome's V8 JavaScript engine...</h3>
+                    <h3>Servlet LifeCycle that invoked implicitly by the Servlet Container when the servlet is called upon to service a client requests and no instance currently exist...</h3>
                     
                     <div>
                         <input type="radio" name="question-14-answers" id="question-14-answers-A" value="A" />
-                        <label for="question-14-answers-A">A) Angular </label>
+                        <label for="question-14-answers-A">A) Instantiation </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-14-answers" id="question-14-answers-B" value="B" />
-                        <label for="question-14-answers-B">B) Apache </label>
+                        <label for="question-14-answers-B">B) Initialization </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-14-answers" id="question-14-answers-C" value="C" />
-                        <label for="question-14-answers-C">C) Laravel </label>
+                        <label for="question-14-answers-C">C) Request Handling </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-14-answers" id="question-14-answers-D" value="D" />
-                        <label for="question-14-answers-D">D) Node.js </label>
+                        <label for="question-14-answers-D">D) Invoke Service() method </label>
                     </div>
                 
                 </li>

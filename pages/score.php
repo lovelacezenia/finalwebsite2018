@@ -143,7 +143,9 @@
             $answer12 = $_POST['question-12-answers'];
             if (!isset($answer12))  {$answer12 = 'no answer';}
             $answer13 = $_POST['question-13-answers'];
-            if (!isset($answer13))  {$answer13 = 'no answer';}
+            if (!isset($answer13))  {$answer14 = 'no answer';}
+             $answer14 = $_POST['question-13-answers'];
+            if (!isset($answer14))  {$answer14 = 'no answer';}
         
              $totalCorrect = 0;
 
@@ -160,7 +162,8 @@
             if ($answer11 == "B") { $totalCorrect++; }
             if ($answer12 == "C") { $totalCorrect++; }
             if ($answer13 == "A") { $totalCorrect++; }
-            
+            if ($answer14 == "A") { $totalCorrect++; }
+
             echo "<div id='results'>$totalCorrect / 20 </div>";
             
         ?>
