@@ -128,7 +128,6 @@
             if (!isset($answer4))  {$answer4 = 'no answer';}
             $answer5 = $_POST['question-5-answers'];
             if (!isset($answer5))  {$answer5 = 'no answer';}
-
             $answer6 = $_POST['question-6-answers'];
             if (!isset($answer6))  {$answer6 = 'no answer';}
             $answer7 = $_POST['question-7-answers'];
@@ -144,15 +143,11 @@
         
 
 
-
-            $totalCorrect = 0;
-
             if ($answer1 == "B") { $totalCorrect++; }
             if ($answer2 == "A") { $totalCorrect++; }
             if ($answer3 == "C") { $totalCorrect++; }
             if ($answer4 == "D") { $totalCorrect++; }
             if ($answer5 == "B") { $totalCorrect++; }
-
             if ($answer6 == "C") { $totalCorrect++; }
             if ($answer7 == "A") { $totalCorrect++; }
             if ($answer8 == "B") { $totalCorrect++; }
@@ -167,35 +162,7 @@
     <input type="button" name="b1" value="TAKE QUIZ AGAIN" onclick="location.href='quiz.php'">
 	</div>
 
-
-            echo "<div id='results'>$totalCorrect / 5 </div>";
-
-        ?>
-
 	</div>
-  <div align="center">
-    <a type="button" class="btn btn-primary" href="../pages/quiz.php">Take quiz again</a>
-  </div>
-	  <footer>
-            <div id="footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4 col-pb-sm">
-                            <div class="row">
-                                <div class="col-md-10">
-                                    <h2>Web Systems and Technologies</h2>
-                                    <p>9325A | 1:00 - 2:00 TF</p>
-                                    <span class="block">
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <br></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-    </div>
 
 	  <script src="../js/lib/jquery/jquery.min.js"></script>
  <script src="../js/modernizr-2.6.2.min.js"></script>
