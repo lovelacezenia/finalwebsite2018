@@ -13,7 +13,7 @@
 	<link rel="shortcut icon" href="favicon.ico">
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,700" rel="stylesheet">
-	
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="../css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -29,7 +29,8 @@
 	<link rel="stylesheet" href="../css/owl.theme.default.min.css">
 
 	<link rel="stylesheet" href="../css/style.css">
-	
+	<link rel="stylesheet" href="../css/tab.css">
+
 	<!-- Modernizr JS -->
 	<script src="../js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -59,52 +60,24 @@
 		</aside>
 		<div id="colorlib-work">
 			<div class="container">
-				<div class="row row-padded-bottom">
-					<div class="col-md-6 animate-box">
-					<h1>Personal Home Page(PHP)</h1>
-					<p>-is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.</p>
+				<button class="accordion">Section 1</button>
+	<div class="panel">
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</div>
 
-					<h1>PHP SuperGlobals variables:</h1>
-					<h2>1. $GLOBALS</h2>
-					<p>-is used to access global variables from anywhere in the PHP script (also from within functions or methods).</p> 
-					<h2>2. $_SERVER</h2>
-					<p>-is a PHP super global variable which holds information about headers, paths, and script locations.</p>
-				    <h2>3. $_REQUEST</h2>
-				    <p>-is used to collect data after submitting an HTML form.</p>
-				    <h2>4. $_POST</h2>
-				    <p>-is widely used to collect form data after submitting an HTML form with method="post". $_POST is also widely used to pass variables.</p>
-				    <h2>5. $_GET</h2>
-				    <p>-can also be used to collect form data after submitting an HTML form with method="get". $_GET can also collect data sent in the URL.</p>
-				   
-	
-					</div>
-					<div class="col-md-6 col-md-push-1 animate-box">
-						<div class="work-detail">
-						<h2>6. $_FILES</h2>
-				   	<h2>7. $_ENV</h2>
-				    <h2>8. $_COOKIE</h2>
-				    <h2>9. $_SESSION</h2>
-						<h1>Database Extensions</h1>
-						<h2>Abstraction Layer:</h2>
-						<h3>o	DBA — Database ( dbm -style) Abstraction Layer</h3>
-						<h3>o	dbx</h3>
-						<h3>o	ODBC — ODBC (Unified)</h3>
-						<h3>o	PDO — PHP Data Objects</h3>
+	<button class="accordion">Section 2</button>
+	<div class="panel">
+	  <p>adaa</p>
+	</div>
 
-						<h1>Way to delimit strings:</h1>
-						<h2>•	Heredoc</h2>
-						<p>-A third way to delimit strings is the heredoc syntax: <<<. After this operator, an identifier is provided, then a newline. The string itself follows, and then the same identifier again to close the quotation. </p>
-						<h2>•	Nowdoc</h2>
-						<p>-Are to single-quoted strings what heredocs are to double-quoted strings. A nowdoc is specified similarly to a heredoc, but no parsing is done inside a nowdoc.</p>
+	<button class="accordion">Section 3</button>
+	<div class="panel">
+	  <p>adad</p>
+	</div>
 
 
-							
 
-					</div>
-				</div>
-			
-		  </div>
-				
+
 		</div>
 	</div>
 
@@ -125,6 +98,21 @@
 
 	<!-- Main JS (Do not remove) -->
 	<script src="../js/main.js"></script>
+	<script>
+	var acc = document.getElementsByClassName("accordion");
+	var i;
 
+	for (i = 0; i < acc.length; i++) {
+			acc[i].addEventListener("click", function() {
+					this.classList.toggle("active");
+					var panel = this.nextElementSibling;
+					if (panel.style.display === "block") {
+							panel.style.display = "none";
+					} else {
+							panel.style.display = "block";
+					}
+			});
+	}
+	</script>
 	</body>
 </html>
