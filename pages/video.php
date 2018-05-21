@@ -98,7 +98,65 @@
             </div>
         </aside>
 
+        <br>
+        <center>
+            <h1> Java Web Servlets </h1>
+        <iframe width="500" height="450" src="https://www.youtube.com/embed/fqoY9mZGBac"></iframe>
+        </center>
 
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-pb-sm">
+                        <div class="row">
+                            <div class="col-md-15">
+                                <iframe width="500" height="450" src="https://www.youtube.com/embed/Y1-JvAC9tlM"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="col-md-3 col-pb-sm">
+                        </div>
+                        <div class="col-md-3 col-pb-sm">
+                            <iframe width="500" height="450" src="https://www.youtube.com/embed/pxmWgTRETi4"></iframe>
+                        </div>
+                </div>
+            </div>
+
+        <br>
+        <br>
+        <center><h1>Hypertext Preprocessor (PHP)</h1></center>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-pb-sm">
+                        <div class="row">
+                            <div class="col-md-15">
+                                <iframe width="500" height="450" src="https://www.youtube.com/embed/EA2K4nMxdYM"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="col-md-3 col-pb-sm">
+                        </div>
+                        <div class="col-md-3 col-pb-sm">
+                            <iframe width="500" height="450" src="https://www.youtube.com/embed/PemsuAfc7Jw"></iframe>
+                        </div>
+                </div>
+            </div>
+
+        <br>
+        <br>
+        <center>
+            <h1> Node JS </h1>
+        <iframe width="500" height="450" src="https://www.youtube.com/embed/KsjrN-T3ZCs"></iframe>
+        </center>
+
+        <br>
+        <br>
+        <center>
+            <h2> Open Web Application Security Project (OWASP) Top 10 Application Security Risks </h2>
+        <iframe width="500" height="450" src="https://www.youtube.com/embed/RGA5kLO9vjs"></iframe>
+        </center>
+
+    </div>
 
     <footer>
             <div id="footer">
