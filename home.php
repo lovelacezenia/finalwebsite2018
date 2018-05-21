@@ -155,7 +155,7 @@
             </div>
             <div class="col-md-4 animate-box">
                 <div class="services">
-                    <span class="icon"><i class="icon-briefcase"></i></span>
+                    <span class="icon"><i class="icon-note"></i></span>
                     <div class="desc">
                         <h3>Java Server Pages</h3>
                         <p>It is a server side programming language that enables the creation of building web-based applications.</p>
