@@ -65,35 +65,59 @@
 	  <p>
 			<ul>
 				<li> $GLOBALS <br>
-					<p>-is used to access global variables from anywhere in the PHP script (also from within functions or methods).</p>
+					<p>is used to access global variables from anywhere in the PHP script (also from within functions or methods).</p>
 				</li>
 				<li> $_SERVER <br>
-					<p>-is a PHP super global variable which holds information about headers, paths, and script locations.</p>
+					<p>is a PHP super global variable which holds information about headers, paths, and script locations.</p>
 				</li>
 				<li>$_REQUEST <br>
-					<p>-is used to collect data after submitting an HTML form.</p>
+					<p>is used to collect data after submitting an HTML form.</p>
 				</li>
 				<li>$_POST<br>
-					<p>-is widely used to collect form data after submitting an HTML form with method="post". $_POST is also widely used to pass variables</p>
+					<p>is widely used to collect form data after submitting an HTML form with method="post". $_POST is also widely used to pass variables</p>
 				</li>
 				<li>$_GET<br>
-					 <p>-can also be used to collect form data after submitting an HTML form with method="get". $_GET can also collect data sent in the URL</p>
+					 <p>can also be used to collect form data after submitting an HTML form with method="get". $_GET can also collect data sent in the URL</p>
 				</li>
+				<li>$_FILES</li>
+				<li>$_ENV</li>
+				<li>$_COOKIE</li>
+				<li>$_SESSION</li>
 			</ul>
 		</p>
 	</div>
 
-	<button class="accordion">Section 2</button>
+	<button class="accordion">Database Extensions</button>
 	<div class="panel">
-	  <p>adaa</p>
+	  <p>
+			Abstraction Layer:
+			<ul>
+						<li>DBA — Database ( dbm style) Abstraction Layer</li>
+						<li> dbx</li>
+						<li> ODBC — ODBC (Unified)</li>
+						<li>	PDO — PHP Data Objects</li>
+					</ul>
+		</p>
+	</div>
+
+	<button class="accordion">Way to delimit strings</button>
+	<div class="panel">
+	  <p>
+			<ul>
+			<li>Heredoc <br>
+				<p>- A third way to delimit strings is the heredoc syntax: <<<. After this operator, an identifier is provided, then a newline. The string itself follows, and then the same identifier again to close the quotation. </p>
+				</li>
+					<li>Nowdoc <br>
+			<p>- Are to single-quote</p>
+			</li>
+</ul>
+	</p>
 	</div>
 
 	<button class="accordion">Section 3</button>
 	<div class="panel">
 	  <p>adad</p>
 	</div>
-
-
 
 
 		</div>

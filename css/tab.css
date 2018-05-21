@@ -2,17 +2,19 @@
     background-color: #808080;
     color: #444;
     cursor: pointer;
-    padding: 18px;
+    padding: 15px;
     width: 100%;
     border: none;
     text-align: center;
     outline: none;
-    font-size: 15px;
+    font-size: 17px;
     transition: 0.4s;
+    border-style: double;
+    font-weight: bold;
 }
 
 .active, .accordion:hover {
-    background-color: #8B0000;
+    background-color: #00FF7F;
 }
 
 .panel {
@@ -20,4 +22,7 @@
     display: none;
     background-color: white;
     overflow: hidden;
+}
+mark {
+  background-color: #ff9800;
 }
