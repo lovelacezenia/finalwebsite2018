@@ -143,9 +143,21 @@
             $answer12 = $_POST['question-12-answers'];
             if (!isset($answer12))  {$answer12 = 'no answer';}
             $answer13 = $_POST['question-13-answers'];
-            if (!isset($answer13))  {$answer14 = 'no answer';}
-             $answer14 = $_POST['question-13-answers'];
+            if (!isset($answer13))  {$answer13 = 'no answer';}
+            $answer14 = $_POST['question-14-answers'];
             if (!isset($answer14))  {$answer14 = 'no answer';}
+            $answer15 = $_POST['question-15-answers'];
+            if (!isset($answer15))  {$answer15 = 'no answer';}
+            $answer16 = $_POST['question-16-answers'];
+            if (!isset($answer16))  {$answer16 = 'no answer';}
+            $answer17 = $_POST['question-17-answers'];
+            if (!isset($answer17))  {$answer17 = 'no answer';}
+            $answer18 = $_POST['question-18-answers'];
+            if (!isset($answer18))  {$answer18 = 'no answer';}
+            $answer19 = $_POST['question-19-answers'];
+            if (!isset($answer19))  {$answer19 = 'no answer';}
+            $answer20 = $_POST['question-20-answers'];
+            if (!isset($answer20))  {$answer20 = 'no answer';}
         
              $totalCorrect = 0;
 
@@ -163,6 +175,13 @@
             if ($answer12 == "C") { $totalCorrect++; }
             if ($answer13 == "A") { $totalCorrect++; }
             if ($answer14 == "A") { $totalCorrect++; }
+            if ($answer15 == "D") { $totalCorrect++; }
+            if ($answer16 == "B") { $totalCorrect++; }
+            if ($answer17 == "D") { $totalCorrect++; }
+            if ($answer18 == "D") { $totalCorrect++; }
+            if ($answer19 == "D") { $totalCorrect++; }
+            if ($answer20 == "A") { $totalCorrect++; }
+
 
             echo "<div id='results'>$totalCorrect / 20 </div>";
             
