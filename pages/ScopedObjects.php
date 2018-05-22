@@ -29,6 +29,7 @@
 <link rel="stylesheet" href="../css/owl.theme.default.min.css">
 
 <link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/table.css">
 <link rel="stylesheet" href="../css/tab.css">
 <link rel="icon" href="../images/webtek.png">
 
@@ -38,40 +39,7 @@
 <!--[if lt IE 9]>
 <script src="js/respond.min.js"></script>
 <![endif]-->
-<style>
-body{
-  background-image: url("../images/logo.png");
-  background-size: 50%;
-}
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 5px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-}
 
-.button1 {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-.slidingDiv {
-
-padding:10px;
-margin-top:8px;
-border-bottom:5px;
-}
-
-.show_hide {
-display:none;
-}
-</style>
 </head>
 <body>
 	<aside id="colorlib-hero">
@@ -101,10 +69,11 @@ display:none;
 <button class="accordion">Request Scope</button>
 <div class="panel">
 
-		<ul>
+				<ul>
 					<li><p>Request scope start from the moment an HTTP request hits a servlet in our web container and end when the servlet is done with delivering the HTTP response.</p></li>
 					<li><p>With respect to the servlet life cycle, the request scope begins on entry to a servlet’s service() method and ends on the exit from that method. </p></li>
 				</ul>
+
 
 </div>
 
@@ -113,7 +82,8 @@ display:none;
 		<ul>
 		<li><p>A session scope starts when a client (e.g. browser window) establishes connection with our web application till the point where the browser window is closed.</p></li>
 		<li><p>Session scope spans across multiple requests from the same client. </p></li>
-</ul>
+
+</ul><p><img src="../images/sessionscope.jpg" height="385px" width="600" align="center"></p>
 </div>
 
 <button class="accordion">JSP page Scope</button>
@@ -122,6 +92,7 @@ display:none;
 		<li><p>The page scope restricts the scpoe and lifetime of attributes to the same page where it was created.</p></li>
 		<li><p>It is available in a JSP page as an implicit object called pageScope.</p></li>
 </ul>
+<p><img src="../images/scopes-in-servlet.png"></p>
 </div>
 
 	</div>

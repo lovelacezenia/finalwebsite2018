@@ -239,7 +239,7 @@ $php_errormsg is a variable containing the text of the last error message genera
   <p>- A session creates a file in a temporary directory on the server where registered session variables and their values are stored. This data will be available to all pages on the site during that visit.</p>
   <p>- The location of the temporary file is determined by a setting in the <mark>php.ini</mark> file called <mark> session.save_path </mark>. Before using any session variable make sure you have setup this path.</p>
 <p><mark>Example of PHP Session</mark><br>
-      <img src="../images/sessionexample.png" height="355px" width="1055px"></p>
+      <img src="../images/sessionexample.png" height="385px" width="1055px"></p>
 </div>
 
 
