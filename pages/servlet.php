@@ -63,6 +63,7 @@ body{
 				<button class="accordion">Java Web Servlets</button>
 					<div class="panel">
 					  <p>
+					  	<p><img src="../images/javaserv.png" align="right"></p>
 							<ul>
 								<li> <b>Java Object</b> based on the Servlet API </li>
 								<li> Runs in a server application to answer client requests; technically, servlets are not tied to a specific client-server protocol, but they are most commonly used with HTTP and the term „servlet‟ is often used in the context of an “HTTP Servlet” </li>
@@ -87,7 +88,7 @@ body{
 						</p>
 					</div>
 
-				<button class="accordion">Java Servlets Method</button>
+				<button class="accordion">Java Servlet Cycle</button>
 					<div class="panel">
 					  	<p>
 					  		<ul>
