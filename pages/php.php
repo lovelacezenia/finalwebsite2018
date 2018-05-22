@@ -39,31 +39,61 @@
 <!--[if lt IE 9]>
 <script src="js/respond.min.js"></script>
 <![endif]-->
+<style>
 
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+</style>
 </head>
 <body>
-	<aside id="colorlib-hero">
-		<div class="flexslider">
-			<ul class="slides">
-		   	<li style="background-image: url(../images/php1.jpg);">
-		   		<div class="overlay"></div>
-		   	</li>
-		  	</ul>
-	  	</div>
-	</aside>
+  <aside id="colorlib-hero">
+    <div class="flexslider">
+      <ul class="slides">
+        <li style="background-image: url(../images/php1.jpg);">
+          <div class="overlay"></div>
+        </li>
+        </ul>
+      </div>
+  </aside>
 
 
-		<div class="container">
-				<p style="text-align:center;"><img src="../images/notes.png" height="85px" width="85px" ></p>
+    <div class="container">
+        <p style="text-align:center;"><img src="../images/notes.png" height="85px" width="85px" ></p>
       <button class="accordion">PHP Hypertext Preprocessor (PHP) </button>
       <div class="panel">
+        <p><img src="../images/page-php.png" height="155px" width="125px" align="left" ></p>
         <p>- is a programming language that allows web developers to create dynamic content that interacts with databases. PHP is basically used for developing web based software applications. This tutorial helps you to build your base with PHP.</p>
+      
+       <div class="row">
+  <div class="col-xs-6 col-md-10"></div>
+          <button type="button" class="button button1" onclick="location.href='http://php.net/manual/en/intro-whatis.php'"><i class="fa chevron-right">See more..</i></button>
+        </div>
       </div>
 
-			<button class="accordion">PHP - Predefined Variables</button>
+      <button class="accordion">PHP - Predefined Variables</button>
 <div class="panel">
   <p> - PHP provides a large number of predefined variables to any script which it runs. PHP provides an additional set of predefined arrays containing variables from the web server the environment, and user input. </p>
-  <p>PHP Superglobals</p>
+  <p>
+  <button type="button" class="button button1" onclick="myFunction()">PHP Superglobals</button></p>
+
+<div id="myDIV">
+
   <p>
     <table id="list">
   <tr>
@@ -145,19 +175,18 @@ $php_errormsg is a variable containing the text of the last error message genera
   </tr>
 
 </table>
-	</p>
+  </p>
+  </div>
 </div>
 
 <button class="accordion">PHP - Constants Types</button>
 <div class="panel">
-  <p>- A constant is a name or an identifier for a simple value. A constant value cannot change during the execution of the script. By default, a constant is case-sensitive. By convention, constant identifiers are always uppercase. A constant name starts with a letter or underscore, followed by any number of letters, numbers, or underscores. If you have defined a constant, it can never be changed or undefined.
-	</p>
-	<p><mark>constant() function </mark><br>
-		- As indicated by the name, this function will return the value of the constant.
-
-This is useful when you want to retrieve value of a constant, but you do not know its name, i.e. It is stored in a variable or returned by a function.
-	</p>
+  <p>- A constant is a name or an identifier for a simple value. A constant value cannot change during the execution of the script. 
+  </p>
+  <p> - A constant is case-sensitive. By convention, constant identifiers are always uppercase. A constant name starts with a letter or underscore, followed by any number of letters, numbers, or underscores. </p>
 </p>
+<p><img src="../images/phpconstant.jpg"></p>
+
 </div>
 
 <button class="accordion">PHP - GET & POST Methods</button>
@@ -169,56 +198,56 @@ This is useful when you want to retrieve value of a constant, but you do not kno
     <li>The POST Method</li>
   </ul>
   Before the browser sends the information, it encodes it using a scheme called URL encoding. In this scheme, name/value pairs are joined with equal signs and different pairs are separated by the ampersand.
-	</p>
-	<p>The GET Method <br>
-		<ul>
-		<li>The GET method sends the encoded user information appended to the page request. The page and the encoded information are separated by the ? character. </li>
-		<li>The GET method produces a long string that appears in your server logs, in the browser's Location: box.</li>
-		<li>The GET method is restricted to send upto 1024 characters only.</li>
-		<li>Never use GET method if you have password or other sensitive information to be sent to the server.</li>
-		<li>GET can't be used to send binary data, like images or word documents, to the server.</li>
-		<li>The data sent by GET method can be accessed using QUERY_STRING environment variable.</li>
-		<li>The PHP provides $_GET associative array to access all the sent information using GET method.</li>
-	</ul>
-	</p>
+  </p>
+  <p>The GET Method <br>
+    <ul>
+    <li>The GET method sends the encoded user information appended to the page request. The page and the encoded information are separated by the ? character. </li>
+    <li>The GET method produces a long string that appears in your server logs, in the browser's Location: box.</li>
+    <li>The GET method is restricted to send upto 1024 characters only.</li>
+    <li>Never use GET method if you have password or other sensitive information to be sent to the server.</li>
+    <li>GET can't be used to send binary data, like images or word documents, to the server.</li>
+    <li>The data sent by GET method can be accessed using QUERY_STRING environment variable.</li>
+    <li>The PHP provides $_GET associative array to access all the sent information using GET method.</li>
+  </ul>
+  </p>
 
-	<p>The POST Method</p>
-	<p>- The POST method transfers information via HTTP headers. The information is encoded as described in case of GET method and put into a header called QUERY_STRING.</li>
-	</p>
-	<p>
-	<ul>
-		<li>The POST method does not have any restriction on data size to be sent.</li>
-		<li>The POST method can be used to send ASCII as well as binary data.</li>
-		<li>The data sent by POST method goes through HTTP header so security depends on HTTP protocol. By using Secure HTTP you can make sure that your information is secure.</li>
-		<li>The PHP provides $_POST associative array to access all the sent information using POST method.</li>
-	</ul>
+  <p>The POST Method</p>
+  <p>- The POST method transfers information via HTTP headers. The information is encoded as described in case of GET method and put into a header called QUERY_STRING.</li>
+  </p>
+  <p>
+  <ul>
+    <li>The POST method does not have any restriction on data size to be sent.</li>
+    <li>The POST method can be used to send ASCII as well as binary data.</li>
+    <li>The data sent by POST method goes through HTTP header so security depends on HTTP protocol. By using Secure HTTP you can make sure that your information is secure.</li>
+    <li>The PHP provides $_POST associative array to access all the sent information using POST method.</li>
+  </ul>
 </p>
 </div>
 
 <button class="accordion">PHP - Coding Standard</button>
 <div class="panel">
   <p>- Every company follows a different coding standard based on their best practices. Coding standard is required because there may be many developers working on different modules so if they will start inventing their own standards then source will become very un-manageable and it will become difficult to maintain that source code in future.</p>
-	<p>Here are several reasons why to use coding specifications −</p>
-	<ul>
-		<li>Your peer programmers have to understand the code you produce. A coding standard acts as the blueprint for all the team to decipher the code.</li>
+  <p>Here are several reasons why to use coding specifications −</p>
+  <ul>
+    <li>Your peer programmers have to understand the code you produce. A coding standard acts as the blueprint for all the team to decipher the code.</li>
 
-		<li>Simplicity and clarity achieved by consistent coding saves you from common mistakes.</li>
+    <li>Simplicity and clarity achieved by consistent coding saves you from common mistakes.</li>
 
-		<li>If you revise your code after some time then it becomes easy to understand that code.</li>
+    <li>If you revise your code after some time then it becomes easy to understand that code.</li>
 
-		<li>Its industry standard to follow a particular standard to being more quality in software.</li>
+    <li>Its industry standard to follow a particular standard to being more quality in software.</li>
 </div>
 
 <button class="accordion">PHP - Sessions</button>
 <div class="panel">
   <p>- An alternative way to make data accessible across the various pages of an entire website is to use a PHP Session.</p>
-	<p>- A session creates a file in a temporary directory on the server where registered session variables and their values are stored. This data will be available to all pages on the site during that visit.</p>
-	<p>- The location of the temporary file is determined by a setting in the <mark>php.ini</mark> file called <mark> session.save_path </mark>. Before using any session variable make sure you have setup this path.</p>
+  <p>- A session creates a file in a temporary directory on the server where registered session variables and their values are stored. This data will be available to all pages on the site during that visit.</p>
+  <p>- The location of the temporary file is determined by a setting in the <mark>php.ini</mark> file called <mark> session.save_path </mark>. Before using any session variable make sure you have setup this path.</p>
 <p>When a session is started following things happen −</P>
-	<ul>
-		<li>PHP first creates a unique identifier for that particular session which is a random string of 32 hexadecimal numbers such as 3c7foj34c3jj973hjkop2fc937e3443.</li>
-		<li> A cookie called PHPSESSID is automatically sent to the user's computer to store unique session identification string.</li>
-		<li> A file is automatically created on the server in the designated temporary directory and bears the name of the unique identifier prefixed by sess_ ie sess_3c7foj34c3jj973hjkop2fc937e3443.</li>
+  <ul>
+    <li>PHP first creates a unique identifier for that particular session which is a random string of 32 hexadecimal numbers such as 3c7foj34c3jj973hjkop2fc937e3443.</li>
+    <li> A cookie called PHPSESSID is automatically sent to the user's computer to store unique session identification string.</li>
+    <li> A file is automatically created on the server in the designated temporary directory and bears the name of the unique identifier prefixed by sess_ ie sess_3c7foj34c3jj973hjkop2fc937e3443.</li>
 </div>
 
 
@@ -246,16 +275,26 @@ var acc = document.getElementsByClassName("accordion");
 var i;
 
 for (i = 0; i < acc.length; i++) {
-		acc[i].addEventListener("click", function() {
-				this.classList.toggle("active");
-				var panel = this.nextElementSibling;
-				if (panel.style.display === "block") {
-						panel.style.display = "none";
-				} else {
-						panel.style.display = "block";
-				}
-		});
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
 }
+
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
+
 </script>
 </body>
  </html>
