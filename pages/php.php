@@ -40,7 +40,10 @@
 <script src="js/respond.min.js"></script>
 <![endif]-->
 <style>
-
+body{
+  background-image: url("../images/logo.png");
+  background-size: 50%;
+}
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -58,6 +61,16 @@
 
 .button1 {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.slidingDiv {
+
+padding:10px;
+margin-top:8px;
+border-bottom:5px;
+}
+
+.show_hide {
+display:none;
 }
 </style>
 </head>
@@ -186,68 +199,47 @@ $php_errormsg is a variable containing the text of the last error message genera
   <p> - A constant is case-sensitive. By convention, constant identifiers are always uppercase. A constant name starts with a letter or underscore, followed by any number of letters, numbers, or underscores. </p>
 </p>
 <p><img src="../images/phpconstant.jpg"></p>
-
 </div>
 
 <button class="accordion">PHP - GET & POST Methods</button>
 <div class="panel">
   <p>
     -There are two ways the browser client can send information to the web server.
-  <ul>
-    <li>The GET Method</li>
-    <li>The POST Method</li>
-  </ul>
-  Before the browser sends the information, it encodes it using a scheme called URL encoding. In this scheme, name/value pairs are joined with equal signs and different pairs are separated by the ampersand.
+  <p><img src="../images/getpost.jpg"></p>
   </p>
-  <p>The GET Method <br>
+  <button class="button button1"><div class="show_hide">The GET Method</div></button>
+<div class="slidingDiv">
     <ul>
-    <li>The GET method sends the encoded user information appended to the page request. The page and the encoded information are separated by the ? character. </li>
-    <li>The GET method produces a long string that appears in your server logs, in the browser's Location: box.</li>
-    <li>The GET method is restricted to send upto 1024 characters only.</li>
-    <li>Never use GET method if you have password or other sensitive information to be sent to the server.</li>
-    <li>GET can't be used to send binary data, like images or word documents, to the server.</li>
-    <li>The data sent by GET method can be accessed using QUERY_STRING environment variable.</li>
-    <li>The PHP provides $_GET associative array to access all the sent information using GET method.</li>
+    <li>The data sent by GET method can be accessed using <mark>QUERY_STRING</mark> environment variable.</li>
+    <li>The PHP provides <mark>$_GET </mark>associative array to access all the sent information using GET method.</li>
   </ul>
-  </p>
-
-  <p>The POST Method</p>
-  <p>- The POST method transfers information via HTTP headers. The information is encoded as described in case of GET method and put into a header called QUERY_STRING.</li>
-  </p>
+</div>
+  <button class="button button1"><div class="show_hide">The POST Method</div></button>
+<div class="slidingDiv">
   <p>
   <ul>
-    <li>The POST method does not have any restriction on data size to be sent.</li>
     <li>The POST method can be used to send ASCII as well as binary data.</li>
-    <li>The data sent by POST method goes through HTTP header so security depends on HTTP protocol. By using Secure HTTP you can make sure that your information is secure.</li>
-    <li>The PHP provides $_POST associative array to access all the sent information using POST method.</li>
+    <li>The PHP provides <mark>$_POST</mark> associative array to access all the sent information using POST method.</li>
   </ul>
 </p>
+</div>
 </div>
 
 <button class="accordion">PHP - Coding Standard</button>
 <div class="panel">
-  <p>- Every company follows a different coding standard based on their best practices. Coding standard is required because there may be many developers working on different modules so if they will start inventing their own standards then source will become very un-manageable and it will become difficult to maintain that source code in future.</p>
-  <p>Here are several reasons why to use coding specifications −</p>
-  <ul>
-    <li>Your peer programmers have to understand the code you produce. A coding standard acts as the blueprint for all the team to decipher the code.</li>
-
-    <li>Simplicity and clarity achieved by consistent coding saves you from common mistakes.</li>
-
-    <li>If you revise your code after some time then it becomes easy to understand that code.</li>
-
-    <li>Its industry standard to follow a particular standard to being more quality in software.</li>
+  <p><img src="../images/codstandard.jpg" height="155px" width="155px" align="left" ></p>
+  <p>- Coding standard is required because there may be many developers working on different modules so if they will start inventing their own standards then source will become very un-manageable and it will become difficult to maintain that source code in future.</p>
+    <p><img src="../images/codingstandard.png"></p>
 </div>
 
 <button class="accordion">PHP - Sessions</button>
 <div class="panel">
-  <p>- An alternative way to make data accessible across the various pages of an entire website is to use a PHP Session.</p>
+<p><img src="../images/sessionimg.png" height="155px" width="155px" align="left" ></p>
+
   <p>- A session creates a file in a temporary directory on the server where registered session variables and their values are stored. This data will be available to all pages on the site during that visit.</p>
   <p>- The location of the temporary file is determined by a setting in the <mark>php.ini</mark> file called <mark> session.save_path </mark>. Before using any session variable make sure you have setup this path.</p>
-<p>When a session is started following things happen −</P>
-  <ul>
-    <li>PHP first creates a unique identifier for that particular session which is a random string of 32 hexadecimal numbers such as 3c7foj34c3jj973hjkop2fc937e3443.</li>
-    <li> A cookie called PHPSESSID is automatically sent to the user's computer to store unique session identification string.</li>
-    <li> A file is automatically created on the server in the designated temporary directory and bears the name of the unique identifier prefixed by sess_ ie sess_3c7foj34c3jj973hjkop2fc937e3443.</li>
+<p><mark>Example of PHP Session</mark><br>
+      <img src="../images/sessionexample.png" height="355px" width="1055px"></p>
 </div>
 
 
@@ -294,7 +286,16 @@ function myFunction() {
         x.style.display = "block";
     }
 }
+$(document).ready(function(){
 
+$(".slidingDiv").hide();
+$(".show_hide").show();
+
+$('.show_hide').click(function(){
+$(".slidingDiv").slideToggle();
+});
+
+});
 </script>
 </body>
  </html>
