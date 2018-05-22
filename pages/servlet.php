@@ -63,10 +63,9 @@ body{
 				<button class="accordion">Java Web Servlets</button>
 					<div class="panel">
 					  <p>
-					  	<p><img src="../images/javaserv.png" align="right"></p>
 							<ul>
 								<li> <b>Java Object</b> based on the Servlet API </li>
-								<li> Runs in a server application to answer client requests; technically, servlets are not tied to a specific client-server protocol, but they are most commonly used with HTTP and the term „servlet‟ is often used in the context of an “HTTP Servlet” </li>
+								<li> Runs in a server application to answer client requests; technically, servlets are not tied to a specific client-server protocol, but they are most commonly used with HTTP and the term "servlet" is often used in the context of an “HTTP Servlet” </li>
 								<li> Web-tier components in the Java EE architecture. </li>
 								<li> Runs in, and is managed by, a web-tier container called the "Servlet Container" </li>
 								<li> Mapped to URLs to which clients send requests </li>
@@ -77,6 +76,7 @@ body{
 				<button class="accordion">Servlet Processing</button>
 					<div class="panel">
 					  <p>
+					  	<p><img src="../images/javaserv.png" align="right"></p>
 							<ul>
 								<li> Client sends a request to a web server URL that is mapped to a servlet. Web server passes on the request to the servlet container  </li>
 								<li> Servlet container checks if servlet is already loaded </li>
@@ -91,6 +91,7 @@ body{
 				<button class="accordion">Java Servlet Cycle</button>
 					<div class="panel">
 					  	<p>
+					  		<p><img src="../images/12877.png" align="right"></p>
 					  		<ul>
 					  			<li> init(config) - Invoked once on the servlet by the servlet container when the servlet is instantiated; can be used by the servlet for one-time startup initialization </li>
 					  			<li> service(request, response) - Invoked each time the servlet is called upon to process a request (typically on a separate thread for each call) </li>
