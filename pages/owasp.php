@@ -85,11 +85,13 @@
 				<button class="accordion">Security Misconfiguration</button>
 					<div class="panel">
 	  					<p>Security misconfiguration is the most commonly seen issue. This is commonly a result of insecure default configurations, incomplete or ad hoc configurations, open cloud storage, misconfigured HTTP headers, and verbose error messages containing sensitive information. Not only must all operating systems, frameworks, libraries, and applications be securely configured, but they must be patched/upgraded in a timely fashion.</p>
+	  					<center><p><img src="../images/misconfig.png"></p></center>
 					</div>
 
 				<button class="accordion">Cross-Site Scripting (XSS)</button>
 					<div class="panel">
 	  					<p>XSS flaws occur whenever an application includes untrusted data in a new web page without proper validation or escaping, or updates an existing web page with user-supplied data using a browser API that can create HTML or JavaScript. XSS allows attackers to execute scripts in the victim's browser which can hijack user sessions, deface web sites, or redirect the user to malicious sites.</p>
+	  					<center><p><img src="../images/xss.gif" height="600px" width="800px"></p></center>
 					</div>
 
 				<button class="accordion">Insecure Deserialization</button>
