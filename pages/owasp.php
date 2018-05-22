@@ -43,7 +43,7 @@
 		<aside id="colorlib-hero">
 			<div class="flexslider">
 				<ul class="slides">
-			   	<li style="background-image: url(../images/owasp2.png);">
+			   	<li style="background-image: url(../images/owas.png);">
 			   		<div class="overlay"></div>
 			   	</li>
 			  	</ul>
@@ -97,16 +97,19 @@
 				<button class="accordion">Insecure Deserialization</button>
 					<div class="panel">
 	  					<p>Insecure deserialization often leads to remote code execution. Even if deserialization flaws do not result in remote code execution, they can be used to perform attacks, including replay attacks, injection attacks, and privilege escalation attacks.</p>
+	  					<center><p><img src="../images/insecure.jpg"></p></center>
 					</div>
 
 				<button class="accordion">Using Components with Known Vulnerabilities</button>
 					<div class="panel">
 	  					<p>Components, such as libraries, frameworks, and other software modules, run with the same privileges as the application. If a vulnerable component is exploited, such an attack can facilitate serious data loss or server takeover. Applications and APIs using components with known vulnerabilities may undermine application defenses and enable various attacks and impacts.</p>
+	  					<center><p><img src="../images/components.png"></p></center>
 					</div>
 
 				<button class="accordion">Insufficient Logging and Monitoring</button>
 					<div class="panel">
 	  					<p>Insufficient logging and monitoring, coupled with missing or ineffective integration with incident response, allows attackers to further attack systems, maintain persistence, pivot to more systems, and tamper, extract, or destroy data. Most breach studies show time to detect a breach is over 200 days, typically detected by external parties rather than internal processes or monitoring.</p>
+	  					<center><p><img src="../images/a10.png"></p></center>
 					</div>
 			</div>
 
