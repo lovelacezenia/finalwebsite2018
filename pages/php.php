@@ -445,7 +445,9 @@ $php_errormsg is a variable containing the text of the last error message genera
       <div class="row">
         <div class="col-md-15 text-center animate-box intro-heading">
       <h2>Tutorial Property</h2>
-        <p>insert text </p>
+      <p>Coding Standard</p>
+      <br>
+      <a href="https://www.tutorialspoint.com/php/php_coding_standard.htm"><img src="../images/php4.png" height="500px" width="600px">
       </div>  </div>
     </div>
   </div>
