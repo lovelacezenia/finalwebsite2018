@@ -110,7 +110,10 @@
 </head>
 
 <body>
-
+        <div class="container">
+                <div id="div1" ><p style="text-align:center;"><img src="../images/takequiz.jpg" height="185px" width="285px" ></p>
+            </div>
+        </div>
         <h1>QUIZ</h1>
 
 

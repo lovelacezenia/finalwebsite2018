@@ -26,3 +26,16 @@
 mark {
   background-color: #ff9800;
 }
+#div1 {-webkit-animation-timing-function: linear;}
+#div1 {animation-timing-function: linear;}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+}
