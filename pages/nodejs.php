@@ -54,7 +54,8 @@
 			<div class="container">
 				<button class="accordion">Node JS</button>
 					<div class="panel">
-	  					<p>Node.js is an open source server environment that is free and runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.). It can open, read, write, delete files on the server. 
+	  					<p>Node.js is an open source server environment that is free and runs on various platforms like:
+	  					<center><p><img src="../images/os.png" height="500px" width="550px"></p> 
 	  					<p>
 					</div>
 
@@ -62,8 +63,7 @@
 					<div class="panel">
 	  					<p>Node.js has a set of built-in modules which you can use without any further installation.
 						To include a module, use the require() function with the name of the module itself.</p>
-						
-						<p>Example: var http = require('http');</p>
+						<center><p><img src="../images/mod.png" height="500px" width="550px"></p> 
 					</div>
 
 				<button class="accordion">URL Module in Node JS</button>
