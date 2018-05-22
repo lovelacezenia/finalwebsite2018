@@ -110,12 +110,11 @@
 </head>
 
 <body>
+
         <div class="container">
-                <div id="div1" ><p style="text-align:center;"><img src="../images/takequiz.jpg" height="185px" width="285px" ></p>
+                <div id="div1" ><p style="text-align:center;"><img src="https://media.giphy.com/media/5zw1YPwkUtJGvfT8te/giphy.gif" height="200px" width="200px"></p>
             </div>
         </div>
-        <h1>QUIZ</h1>
-
 
     <div id="page-wrap">
 
