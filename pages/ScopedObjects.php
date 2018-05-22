@@ -69,6 +69,10 @@ body{
 
 		</ul>
 	</p>
+	<div class="row">
+  <div class="col-xs-6 col-md-10"></div>
+          <button type="button" class="button button1" onclick="location.href='http://ryanmorr.com/understanding-scope-and-context-in-javascript/'"><i class="fa chevron-right">See more..</i></button>
+        </div>
 </div>
 
 <button class="accordion">Request Scope</button>

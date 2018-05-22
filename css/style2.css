@@ -4,7 +4,7 @@
 	 http://css-tricks.com
 */
 
-#page-wrap		    { width: 1300px; margin: center;background-image: background: no-repeat; background-size: 100%}
+#page-wrap		    { width: 1300px; margin: center; }
 
 h1                 { text-align: center; font: 30px Georgia, Serif; text-transform: uppercase; letter-spacing: 3px;}
 
@@ -74,5 +74,3 @@ h1                 { text-align: center; font: 30px Georgia, Serif; text-transfo
   background-image: linear-gradient(to bottom, #6f8ebf, #424954);
   text-decoration: none;
 }
-
-

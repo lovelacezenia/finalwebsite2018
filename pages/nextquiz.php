@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="../css/owl.carousel.min.css">
     <link rel="stylesheet" href="../css/owl.theme.default.min.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/table.css">
+<link rel="stylesheet" href="../css/tab.css">
     <link rel="icon" href="../images/webtek.png">
  
 </head>
@@ -110,12 +112,8 @@
 
 <body>
 
-      <div class="container" style = "background-image:url(../images/tissue.jpg); width:100%">
-                <div id="div1" ><p style="text-align:center;"><img src="https://media.giphy.com/media/5zw1YPwkUtJGvfT8te/giphy.gif" height="250px" width="400px"></p>
-            </div>
-        </div>
-
-    <div id="page-wrap" style = "background-image:url(../images/tissue.jpg); width:100%">
+        <h1>QUIZ</h1>
+                
 
     <div id="page-wrap">
         
@@ -159,7 +157,7 @@
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" required/>
+                        <input type="radio" name="question-12-answers" id="question-2-answers-B" value="B" required/>
                         <label for="question-2-answers-B">B) Request Scope </label>
                     </div>
                     
@@ -180,7 +178,7 @@
                     <h3>It is a PHP superglobal variable that is used to collect data after submitting an HTML form.... </h3>
                     
                     <div>
-                        <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" required/>
+                        <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" requiredrequired/>
                         <label for="question-3-answers-A">A) $_REQUEST </label>
                     </div>
                     
@@ -190,7 +188,7 @@
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" required/>
+                        <input type="radio" name="question-13-answers" id="question-3-answers-C" value="C" required/>
                         <label for="question-3-answers-C">C) $_SERVER </label>
                     </div>
                     
@@ -309,22 +307,22 @@
                     <h3>How would you start a session in PHP?</h3>
                     
                     <div>
-                        <input type="radio" name="question-8-answers" id="question-8-answers-A" value="A" required/>
+                        <input type="radio" name="question-8-answers" id="question-8-answers-A" value="A" requiredrequired/>
                         <label for="question-8-answers-A">A) session(start); </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-8-answers" id="question-8-answers-B" value="B" required/>
+                        <input type="radio" name="question-8-answers" id="question-8-answers-B" value="B" requiredrequired/>
                         <label for="question-8-answers-B">B) session(); </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-8-answers" id="question-8-answers-C" value="C" required/>
+                        <input type="radio" name="question-8-answers" id="question-8-answers-C" value="C" requiredrequired/>
                         <label for="question-8-answers-C">C) session_start(); </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-8-answers" id="question-8-answers-D" value="D" required/>
+                        <input type="radio" name="question-8-answers" id="question-8-answers-D" value="D" requiredrequired/>
                         <label for="question-8-answers-D">D) begin_session(); </label>
                     </div>
                 

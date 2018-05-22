@@ -37,61 +37,24 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-<style>
-body{
-  background-image: url("../images/logo.png");
-  background-size: 50%;
-}
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 5px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-}
 
-.button1 {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-.slidingDiv {
-
-padding:10px;
-margin-top:8px;
-border-bottom:5px;
-}
-
-.show_hide {
-display:none;
-}
-</style>
-</head>
-</head>
-<body>
-	<aside id="colorlib-hero">
-		<div class="flexslider">
-			<ul class="slides">
-		   	<li style="background-image: url(../images/Nodejs.png);">
-		   		<div class="overlay"></div>
-		   	</li>
-		  	</ul>
-	  	</div>
-	</aside>
 	</head>
 	<body>
+		<aside id="colorlib-hero">
+			<div class="flexslider">
+				<ul class="slides">
+			   	<li style="background-image: url(../images/Nodejs.png);">
+			   		<div class="overlay"></div>
+			   	</li>
+			  	</ul>
+		  	</div>
+		</aside>
 				<div class="container">
 				<p style="text-align:center;"><img src="../images/notes.png" height="85px" width="85px" ></p>
 			<div class="container">
 				<button class="accordion">Node JS</button>
 					<div class="panel">
-	  					<p>Node.js is an open source server environment that is free and runs on various platforms like:
-	  					<center><p><img src="../images/os.png" height="500px" width="550px"></p> 
+	  					<p>Node.js is an open source server environment that is free and runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.). It can open, read, write, delete files on the server. 
 	  					<p>
 					</div>
 
@@ -99,7 +62,8 @@ display:none;
 					<div class="panel">
 	  					<p>Node.js has a set of built-in modules which you can use without any further installation.
 						To include a module, use the require() function with the name of the module itself.</p>
-						<center><p><img src="../images/mod.png" height="500px" width="550px"></p> 
+						
+						<p>Example: var http = require('http');</p>
 					</div>
 
 				<button class="accordion">URL Module in Node JS</button>
@@ -132,9 +96,10 @@ display:none;
 	  					<p>Node.js uses events heavily and it is also one of the reasons why Node.js is pretty fast
 						compared to other similar technologies. As soon as Node starts its server, it simply initiates
 						its variables, declares functions, and then simply waits for the event to occur.</p>
-						<center><p><img src="../images/loop.png" height="500px" width="800px"></p></center>
+
+						<p>Node.js has multiple inbuilt events available through events module and EventEmitter class which are used to bind events and event-listeners </p>
 						
-					
+						<p>Example of creating an eventEmitter object: var eventEmitter = new events.EventEmitter(); </p>
 					</div>		
 			</div>
 		</div>

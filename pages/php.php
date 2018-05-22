@@ -40,9 +40,23 @@
 <script src="js/respond.min.js"></script>
 <![endif]-->
 <style>
-body{
-  background-image: url("../images/logo.png");
-  background-size: 50%;
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 .button {
     background-color: #4CAF50; /* Green */
@@ -72,6 +86,42 @@ border-bottom:5px;
 .show_hide {
 display:none;
 }
+.swing {
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    float:right;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.swing img {
+    border: 5px solid #f8f8f8;
+    display: block;
+}
+.swing:after{
+    content: '';
+    position: absolute;  
+    width: 10px; height: 10px;  
+    border: 1px solid #999;
+    top: -10px; right: 50%;
+    z-index: 0;
+    border-bottom: none;
+    border-right: none;
+    transform: rotate(45deg);
+}
+/* nail */
+.swing:before{
+    content: '';
+    position: absolute;
+    width: 5px; height: 5px;
+    top: -14px;right: 54%;
+    z-index: 5;
+    border-radius: 50% 50%;
+    background: #000;
+}
+ 
+@keyframes swing {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
 </style>
 </head>
 <body>
@@ -81,34 +131,119 @@ display:none;
         <li style="background-image: url(../images/php1.jpg);">
           <div class="overlay"></div>
         </li>
+        <li style="background-image: url(../images/cc.png);">
+          <div class="overlay"></div>
+        </li>
+        <li style="background-image: url(../images/php.jpg);">
+          <div class="overlay"></div>
+        </li>
+
         </ul>
       </div>
   </aside>
 
-
-    <div class="container">
-        <p style="text-align:center;"><img src="../images/notes.png" height="85px" width="85px" ></p>
-      <button class="accordion">PHP Hypertext Preprocessor (PHP) </button>
-      <div class="panel">
-        <p><img src="../images/page-php.png" height="155px" width="125px" align="left" ></p>
-        <p>- is a programming language that allows web developers to create dynamic content that interacts with databases. PHP is basically used for developing web based software applications. This tutorial helps you to build your base with PHP.</p>
+    <div id="colorlib-about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 animate-box">
       
-       <div class="row">
-  <div class="col-xs-6 col-md-10"></div>
-          <button type="button" class="button button1" onclick="location.href='http://php.net/manual/en/intro-whatis.php'"><i class="fa chevron-right">See more..</i></button>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 col-pb-sm">
+                        <div class="row">
+                            <div class="col-md-15">
+                                <iframe width="470" height="350" src="https://www.youtube.com/embed/kY5P9sZqFas"></iframe>
+                            </div>
+                            <div class="col-md-15">
+                                <iframe width="470" height="350" src=" https://www.youtube.com/embed/ArsbbtkF0ps"></iframe>
+                            </div>
+                            <div class="col-md-15">
+                                <iframe width="470" height="350" src="https://www.youtube.com/embed/EuW4EhdPv0o"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-7 ">
+            <div class="row">
+              <div class="col-md-15 text-center animate-box intro-heading">
+            <h2>Introduction</h2>
+            <p>PHP started out as a small open source project that evolved as more and more people found out how useful it was. Rasmus Lerdorf unleashed the first version of PHP way back in 1994.</p>
+          </div></div>
+              <ul>
+                <li>PHP is a recursive acronym for "PHP: Hypertext Preprocessor".</li>
+
+                <li>PHP is a server side scripting language that is embedded in HTML. It is used to manage dynamic content, databases, session tracking, even build entire e-commerce sites.</li>
+
+                <li>It is integrated with a number of popular databases, including MySQL, PostgreSQL, Oracle, Sybase, Informix, and Microsoft SQL Server.</li>
+
+                <li>PHP is pleasingly zippy in its execution, especially when compiled as an Apache module on the Unix side. The MySQL server, once started, executes even very complex queries with huge result sets in record-setting time.</li>
+
+                <li>PHP supports a large number of major protocols such as POP3, IMAP, and LDAP. PHP4 added support for Java and distributed object architectures (COM and CORBA), making n-tier development a possibility for the first time.</ li>
+
+                <li>PHP is forgiving: PHP language tries to be as forgiving as possible.</ li>
+
+                <li>PHP Syntax is C-Like.</li>
+              </ul>
+          </div>
         </div>
       </div>
+    </div>
 
-      <button class="accordion">PHP - Predefined Variables</button>
-<div class="panel">
-  <p> - PHP provides a large number of predefined variables to any script which it runs. PHP provides an additional set of predefined arrays containing variables from the web server the environment, and user input. </p>
-  <p>
-  <button type="button" class="button button1" onclick="myFunction()">PHP Superglobals</button></p>
+<div class="container">
+  <figure class="swing">
+              <a href="#"><img src="../images/php3.jpg" height="300px" width="300px" align="right"></a>
+            </figure>
+                               <h2>Common uses of PHP</h2>
+                                <ul>
+                           <li>PHP performs system functions, i.e. from files on a system it can create, open, read, write, and close them.</li>
 
-<div id="myDIV">
+                          <li>PHP can handle forms, i.e. gather data from files, save data to a file, through email you can send data, return data to the user.</li>
 
-  <p>
-    <table id="list">
+                          <li>You add, delete, modify elements within your database through PHP.</li>
+
+                          <li>Access cookies variables and set cookies.</li>
+
+                          <li>Using PHP, you can restrict users to access some pages of your website.</li>
+
+                          <li>It can encrypt data.</li>
+              </ul>
+                    </div>
+                </div>
+            </div>
+      </div>
+
+      <div class="container" >
+          <div class="animate-box intro-heading">
+            <img src="../images/page-php.png" height="300px" width="300px" align="left">
+            <p>
+            <h1>Characteristics of PHP</h1>
+            <p>Five important characteristics make PHP's practical nature possible −
+            <ul>
+              <li>Simplicity</li>
+              <li>Efficiency</li>
+              <li>Security</li>
+              <li>Flexibility</li>
+              <li>Familiarity</li></p>
+            </ul>
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container" >
+          <div class="animate-box intro-heading">
+            <p align="center">
+              <h1>PHP - Predefined Variables</h1>
+              PHP provides a large number of predefined variables to any script which it runs. 
+              PHP provides an additional set of predefined arrays containing variables from the web server the environment, 
+              and user input. These new arrays are called <strong><mark>superglobals</mark></strong>.
+            </p>
+      <button class="button button1"><div class="show_hide">show more.... </div></button>
+            <div class="slidingDiv">
+            <p><table id="list">
   <tr>
     <th>No.</th>
     <th>Variable & Description</th>
@@ -188,63 +323,54 @@ $php_errormsg is a variable containing the text of the last error message genera
   </tr>
 
 </table>
-  </p>
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="colorlib-counter" class="colorlib-counters">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center animate-box intro-heading">
+
+            <h2>Fun Fact</h2>
+            <p style="text-align:center;"><img src="../images/dan.gif" height="115px" width="105px" ></p>
+            <p>Some of the biggest online brands, such as Facebook, ProProfs, Digg, Friendster, Flickr, Technorati, and Yahoo! are powered by PHP.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
   </div>
-</div>
+ <footer>
+            <div id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-pb-sm">
+                            <div class="row">
+                                <div class="col-md-15" align="center">
+                                    <h2>Web Systems and Technologies</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-pb-sm">
+                          <p align="center">Follow Us on:</p>
+                          <p class="colorlib-social-icons" align="center">
+                              <a href="https://www.facebook.com/diannealyza.cayabyab?ref=br_rs"><i class="icon-facebook4"></i></a>
+                              <a href="https://twitter.com/ssaarraahhmae?lang=en"><i class="icon-twitter3"></i></a>
+                            </p>
 
-<button class="accordion">PHP - Constants Types</button>
-<div class="panel">
-  <p>- A constant is a name or an identifier for a simple value. A constant value cannot change during the execution of the script. 
-  </p>
-  <p> - A constant is case-sensitive. By convention, constant identifiers are always uppercase. A constant name starts with a letter or underscore, followed by any number of letters, numbers, or underscores. </p>
-</p>
-<p><img src="../images/phpconstant.jpg"></p>
-</div>
-
-<button class="accordion">PHP - GET & POST Methods</button>
-<div class="panel">
-  <p>
-    -There are two ways the browser client can send information to the web server.
-  <p><img src="../images/getpost.jpg"></p>
-  </p>
-  <button class="button button1"><div class="show_hide">The GET Method</div></button>
-<div class="slidingDiv">
-    <ul>
-    <li>The data sent by GET method can be accessed using <mark>QUERY_STRING</mark> environment variable.</li>
-    <li>The PHP provides <mark>$_GET </mark>associative array to access all the sent information using GET method.</li>
-  </ul>
-</div>
-  <button class="button button1"><div class="show_hide">The POST Method</div></button>
-<div class="slidingDiv">
-  <p>
-  <ul>
-    <li>The POST method can be used to send ASCII as well as binary data.</li>
-    <li>The PHP provides <mark>$_POST</mark> associative array to access all the sent information using POST method.</li>
-  </ul>
-</p>
-</div>
-</div>
-
-<button class="accordion">PHP - Coding Standard</button>
-<div class="panel">
-  <p><img src="../images/codstandard.jpg" height="155px" width="155px" align="left" ></p>
-  <p>- Coding standard is required because there may be many developers working on different modules so if they will start inventing their own standards then source will become very un-manageable and it will become difficult to maintain that source code in future.</p>
-    <p><img src="../images/codingstandard.png"></p>
-</div>
-
-<button class="accordion">PHP - Sessions</button>
-<div class="panel">
-<p><img src="../images/sessionimg.png" height="155px" width="155px" align="left" ></p>
-
-  <p>- A session creates a file in a temporary directory on the server where registered session variables and their values are stored. This data will be available to all pages on the site during that visit.</p>
-  <p>- The location of the temporary file is determined by a setting in the <mark>php.ini</mark> file called <mark> session.save_path </mark>. Before using any session variable make sure you have setup this path.</p>
-<p><mark>Example of PHP Session</mark><br>
-      <img src="../images/sessionexample.png" height="385px" width="1055px"></p>
-</div>
-
-
-</div>
-
+                            <p align="center">9325A | 1:00 - 2:00 TF</p>
+                        </div>
+                        <div class="col-md-4 col-pb-sm" align="center">
+                            <span class="block">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <br></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 <!-- jQuery -->
 <script src="../js/jquery.min.js"></script>
 <!-- jQuery Easing -->
@@ -297,5 +423,6 @@ $(".slidingDiv").slideToggle();
 
 });
 </script>
-</body>
- </html>
+  </body>
+</html>
+

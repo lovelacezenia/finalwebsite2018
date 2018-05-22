@@ -12,7 +12,9 @@ html {
 }
 
 body {
-  margin: 0;
+  background-image: url("../images/logo.png");
+  background-size: 50%;
+   margin: 0;
 }
 
 article,

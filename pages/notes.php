@@ -25,7 +25,12 @@
     <link rel="stylesheet" href="../css/owl.theme.default.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../images/webtek.png">
-
+<style>
+body {
+  background-image: url("../images/logo.png");
+  background-size: 50%;
+}
+</style>
 </head>
 
 <body>

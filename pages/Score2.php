@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="../css/owl.carousel.min.css">
     <link rel="stylesheet" href="../css/owl.theme.default.min.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/table.css">
+<link rel="stylesheet" href="../css/tab.css">
     <link rel="icon" href="../images/webtek.png">
 
 </head>
@@ -161,7 +163,7 @@
         ?>
         <div id="button1" align="center">
 	
-    <input type="button" name="b1" value="TAKE QUIZ AGAIN" onclick="location.href='quiz.php'">
+    <button type="button" name="b1" onclick="location.href='quiz.php'">TAKE QUIZ AGAIN</button>
 	</div>
      <div id="buttons" align="center">
             <input type="button" name="b2" value="END" onclick="location.href='../home.php'">

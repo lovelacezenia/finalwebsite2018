@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="../css/owl.carousel.min.css">
     <link rel="stylesheet" href="../css/owl.theme.default.min.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/table.css">
+    <link rel="stylesheet" href="../css/tab.css">
     <link rel="icon" href="../images/webtek.png">
 
 </head>
@@ -109,14 +111,15 @@
     <link rel="stylesheet" type="text/css" href="../css/style2.css" />
 </head>
 
-<body >
-
-        <div class="container" style = "background-image:url(../images/tissue.jpg); width:100%">
-                <div id="div1" ><p style="text-align:center;"><img src="https://media.giphy.com/media/5zw1YPwkUtJGvfT8te/giphy.gif" height="250px" width="400px"></p>
+<body>
+        <div class="container">
+                <div id="div1" ><p style="text-align:center;"><img src="../images/takequiz.jpg" height="185px" width="285px" ></p>
             </div>
         </div>
+        <h1>QUIZ</h1>
 
-    <div id="page-wrap" style = "background-image:url(../images/tissue.jpg); width:100%">
+
+    <div id="page-wrap">
 
         <form action="score.php" method="post" id="quiz">
 
@@ -381,7 +384,7 @@
 
 
         <div id="submit" align="center">
-          <input type="submit" value="Submit Quiz"/>
+          <button class="button button1" type="submit"/>Submit Quiz</button>
         </div>
     </div>
         
