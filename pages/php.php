@@ -98,8 +98,8 @@ display:none;
 }
 .swing:after{
     content: '';
-    position: absolute;  
-    width: 10px; height: 10px;  
+    position: absolute;
+    width: 10px; height: 10px;
     border: 1px solid #999;
     top: -10px; right: 50%;
     z-index: 0;
@@ -117,7 +117,7 @@ display:none;
     border-radius: 50% 50%;
     background: #000;
 }
- 
+
 @keyframes swing {
     0% { transform: rotate(3deg); }
     100% { transform: rotate(-3deg); }
@@ -165,8 +165,6 @@ display:none;
 }
 
 
-/* Extra Things */
-body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px; font-weight: 400;text-align: center;margin-top: 50px;}h3 i{color: #444;}
 </style>
 </head>
 <body>
@@ -190,9 +188,8 @@ body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px;
     <div id="colorlib-about">
       <div class="container">
         <div class="row">
-          <div class="col-md-5 animate-box">
-      
 
+          <!-- <div class="col-md-5 animate-box">
             <div class="container">
                 <div class="row">
                     <div class="col-md-7 col-pb-sm">
@@ -210,15 +207,19 @@ body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px;
                     </div>
                 </div>
             </div>
-          </div>
-          <div class="col-md-7 ">
-            <div class="row">
-              <div class="col-md-15 text-center animate-box intro-heading">
+          </div> -->
+          <div class="container">
+            <figure class="swing">
+                        <img src="../images/php3.jpg" height="300px" width="300px" align="right">
+                      </figure>
+              <div class="col-md-8 text-center animate-box intro-heading">
             <h2>Introduction</h2>
             <p>PHP started out as a small open source project that evolved as more and more people found out how useful it was. Rasmus Lerdorf unleashed the first version of PHP way back in 1994.</p>
           </div></div>
+          <button class="button button1"><div class="show_hide">show more.... </div></button>
+                <div class="slidingDiv">
               <ul>
-                <li>PHP is a recursive acronym for "PHP: Hypertext Preprocessor".</li>
+                <li>PHP is a recursive acronym for <mark>"PHP: Hypertext Preprocessor"</mark>.</li>
 
                 <li>PHP is a server side scripting language that is embedded in HTML. It is used to manage dynamic content, databases, session tracking, even build entire e-commerce sites.</li>
 
@@ -231,47 +232,87 @@ body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px;
                 <li>PHP is forgiving: PHP language tries to be as forgiving as possible.</ li>
 
                 <li>PHP Syntax is C-Like.</li>
-              </ul>
+              </ul></div>
           </div>
         </div>
       </div>
     </div>
 
+    <div class="container">
+              <div class="row">
+                <div class="col-md-4 col-pb-sm">
+                  <div class="row">
+                    <div class="col-md-11">
+                      <h2 align="center">Common uses of PHP</h2>
+                      <ul>
+                          <li>PHP performs system functions, i.e. from files on a system it can create, open, read, write, and close them.</li>
+                          <button class="button button2"><div class="show_hide">show more.... </div></button>
+                                <div class="slidingDiv">
+                          <li>PHP can handle forms, i.e. gather data from files, save data to a file, through email you can send data, return data to the user.</li>
+                          <li>You add, delete, modify elements within your database through PHP.</li>
+                          <li>Access cookies variables and set cookies.</li>
+                          <li>Using PHP, you can restrict users to access some pages of your website.</li>
+                          <li>It can encrypt data.</li>
+                        </div>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-pb-sm">
+                  <h2 align="center">Characteristics of PHP</h2>
+                  <p>Five important characteristics:
+                  <ul>
+                    <li>Simplicity</li>
+                    <li>Efficiency</li>
+                    <li>Security</li>
+                    <li>Flexibility</li>
+                    <li>Familiarity</li></p>
+                  </ul>
+                </div>
+                <div class="col-md-4 col-pb-sm right-display">
+                  <h2 align="center">PHP - Syntax Overview</h2>
+                  <p >This chapter will give you an idea of very basic syntax of PHP and very important to make your PHP foundation strong.</p>
+                </div>
+              </div>
+            </div>
+
+
+
 <div class="container">
   <figure class="swing">
               <a href="#"><img src="../images/php3.jpg" height="300px" width="300px" align="right"></a>
             </figure>
-                               <h2>Common uses of PHP</h2>
+                               <h2>PHP - Variable Types</h2>
+                               <p>The main way to store information in the middle of a PHP program is by using a variable.</p>
                                 <ul>
-                           <li>PHP performs system functions, i.e. from files on a system it can create, open, read, write, and close them.</li>
-
-                          <li>PHP can handle forms, i.e. gather data from files, save data to a file, through email you can send data, return data to the user.</li>
-
-                          <li>You add, delete, modify elements within your database through PHP.</li>
-
-                          <li>Access cookies variables and set cookies.</li>
-
-                          <li>Using PHP, you can restrict users to access some pages of your website.</li>
-
-                          <li>It can encrypt data.</li>
-              </ul>
+                                  <li>All variables in PHP are denoted with a leading dollar sign ($).</li>
+                                   <li>The value of a variable is the value of its most recent assignment.</li>
+                                   <button class="button button2"><div class="show_hide">show more.... </div></button>
+                                         <div class="slidingDiv">
+                                   <li>Variables are assigned with the = operator, with the variable on the left-hand side and the expression to be evaluated on the right.</li>
+                                   <li>Variables can, but do not need, to be declared before assignment.</li>
+                                   <li>Variables in PHP do not have intrinsic types - a variable does not know in advance whether it will be used to store a number or a string of characters.</li>
+                                   <li>Variables used before they are assigned have default values.</li>
+                                   <li>PHP does a good job of automatically converting types from one to another when necessary.</li>
+                                   <li>PHP variables are Perl-like.</li>
+                                 </diV>
+                                </ul>
                     </div>
                 </div>
             </div>
-      </div>
+      </div>  </div>
 
       <div class="container" >
           <div class="animate-box intro-heading">
             <img src="../images/page-php.png" height="300px" width="300px" align="left">
             <p>
-            <h1>Characteristics of PHP</h1>
-            <p>Five important characteristics make PHP's practical nature possible −
+            <h1>PHP - Web Concepts</h1>
+            <p>This session demonstrates how PHP can provide dynamic content according to browser type, randomly generated numbers or User Input. It also demonstrated how the client browser can be redirected.</p>
+            <p>
+            <strong>Identifying Browser & Platform</strong><br>
             <ul>
-              <li>Simplicity</li>
-              <li>Efficiency</li>
-              <li>Security</li>
-              <li>Flexibility</li>
-              <li>Familiarity</li></p>
+            <li>PHP creates some useful environment variables that can be seen in the phpinfo.php page that was used to setup the PHP environment.</ul>
+            <li>One of the environment variables set by PHP is HTTP_USER_AGENT which identifies the user's browser and operating system.</ul>
             </ul>
           </p>
           </div>
@@ -282,8 +323,8 @@ body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px;
           <div class="animate-box intro-heading">
             <p align="center">
               <h1>PHP - Predefined Variables</h1>
-              PHP provides a large number of predefined variables to any script which it runs. 
-              PHP provides an additional set of predefined arrays containing variables from the web server the environment, 
+              PHP provides a large number of predefined variables to any script which it runs.
+              PHP provides an additional set of predefined arrays containing variables from the web server the environment,
               and user input. These new arrays are called <strong><mark>superglobals</mark></strong>.
             </p>
       <button class="button button1"><div class="show_hide">show more.... </div></button>
@@ -374,7 +415,45 @@ $php_errormsg is a variable containing the text of the last error message genera
       </div>
     </div>
 
-    <div id="colorlib-counter" class="colorlib-counters">
+<!-- video and tutorials-->
+<div class="container">
+  <div class="row">
+    <div class="col-md-5 animate-box">
+
+
+      <div class="container">
+          <div class="row">
+              <div class="col-md-7 col-pb-sm">
+                  <div class="row">
+                    <div class="col-md-8 text-center animate-box intro-heading">
+                    <h2>Video Tutorials for PHP</h2>
+                      <div class="col-md-15">
+                          <iframe width="470" height="250" src="https://www.youtube.com/embed/kY5P9sZqFas"></iframe>
+                      </div>
+                      <div class="col-md-15">
+                          <iframe width="470" height="250" src=" https://www.youtube.com/embed/ArsbbtkF0ps"></iframe>
+                      </div>
+                      <div class="col-md-15">
+                          <iframe width="470" height="250" src="https://www.youtube.com/embed/EuW4EhdPv0o"></iframe>
+                      </div></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-7 ">
+      <div class="row">
+        <div class="col-md-15 text-center animate-box intro-heading">
+      <h2>Tutorial Property</h2>
+        <p>insert text </p>
+      </div>  </div>
+    </div>
+  </div>
+</div>
+</div>
+<!--end of tutorials-->
+
+<!--fun fact-->
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center animate-box intro-heading">
@@ -385,13 +464,16 @@ $php_errormsg is a variable containing the text of the last error message genera
           </div>
         </div>
       </div>
-    </div>
-  
+<!---->
   </div>
+
 
   <!-- Return to Top -->
 <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+<!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
+</div>
 </div>
  <footer>
             <div id="footer">
@@ -404,9 +486,9 @@ $php_errormsg is a variable containing the text of the last error message genera
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 col-pb-sm">
-                          <p align="center">Connect with us:</p>
-                          <p class="colorlib-social-icons" align="center">
+                        <div class="col-md-4 col-pb-sm" align="center">
+                            <h2>Follow Us</h2>
+                            <p class="colorlib-social-icons colorlib-social-icons2" >
                               <a href="https://www.facebook.com/diannealyza.cayabyab?ref=br_rs"><i class="icon-facebook4"></i></a>
                               <a href="https://twitter.com/ssaarraahhmae?lang=en"><i class="icon-twitter3"></i></a>
                             </p>
@@ -473,7 +555,7 @@ $(".slidingDiv").slideToggle();
 
 });
 
-// ===== Scroll to Top ==== 
+// ===== Scroll to Top ====
 $(window).scroll(function() {
     if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
         $('#return-to-top').fadeIn(200);    // Fade in the arrow
@@ -491,4 +573,3 @@ $('#return-to-top').click(function() {      // When arrow is clicked
 </script>
   </body>
 </html>
-
