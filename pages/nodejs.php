@@ -96,10 +96,9 @@
 	  					<p>Node.js uses events heavily and it is also one of the reasons why Node.js is pretty fast
 						compared to other similar technologies. As soon as Node starts its server, it simply initiates
 						its variables, declares functions, and then simply waits for the event to occur.</p>
-
-						<p>Node.js has multiple inbuilt events available through events module and EventEmitter class which are used to bind events and event-listeners </p>
+						<center><p><img src="../images/loop.png" height="500px" width="800px"></p></center>
 						
-						<p>Example of creating an eventEmitter object: var eventEmitter = new events.EventEmitter(); </p>
+					
 					</div>		
 			</div>
 		</div>
