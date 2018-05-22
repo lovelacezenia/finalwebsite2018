@@ -109,14 +109,14 @@
     <link rel="stylesheet" type="text/css" href="../css/style2.css" />
 </head>
 
-<body>
+<body >
 
-        <div class="container">
-                <div id="div1" ><p style="text-align:center;"><img src="https://media.giphy.com/media/5zw1YPwkUtJGvfT8te/giphy.gif" height="250px" width="500px"></p>
+        <div class="container" style = "background-image:url(../images/tissue.jpg)">
+                <div id="div1" ><p style="text-align:center;"><img src="https://media.giphy.com/media/5zw1YPwkUtJGvfT8te/giphy.gif" height="250px" width="400px"></p>
             </div>
         </div>
 
-    <div id="page-wrap">
+    <div id="page-wrap" style = "background-image:url(../images/tissue.jpg); width:100%">
 
         <form action="score.php" method="post" id="quiz">
 
