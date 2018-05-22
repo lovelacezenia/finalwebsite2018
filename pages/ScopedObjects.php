@@ -73,7 +73,6 @@ display:none;
 }
 </style>
 </head>
-</head>
 <body>
 	<aside id="colorlib-hero">
 		<div class="flexslider">

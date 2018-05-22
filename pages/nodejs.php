@@ -37,18 +37,54 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+<style>
+body{
+  background-image: url("../images/logo.png");
+  background-size: 50%;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
 
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.slidingDiv {
+
+padding:10px;
+margin-top:8px;
+border-bottom:5px;
+}
+
+.show_hide {
+display:none;
+}
+</style>
+</head>
+</head>
+<body>
+	<aside id="colorlib-hero">
+		<div class="flexslider">
+			<ul class="slides">
+		   	<li style="background-image: url(../images/Nodejs.png);">
+		   		<div class="overlay"></div>
+		   	</li>
+		  	</ul>
+	  	</div>
+	</aside>
 	</head>
 	<body>
-		<aside id="colorlib-hero">
-			<div class="flexslider">
-				<ul class="slides">
-			   	<li style="background-image: url(../images/Nodejs.png);">
-			   		<div class="overlay"></div>
-			   	</li>
-			  	</ul>
-		  	</div>
-		</aside>
 				<div class="container">
 				<p style="text-align:center;"><img src="../images/notes.png" height="85px" width="85px" ></p>
 			<div class="container">
