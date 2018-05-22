@@ -111,7 +111,7 @@
 
 <body >
 
-        <div class="container" style = "background-image:url(../images/tissue.jpg)">
+        <div class="container" style = "background-image:url(../images/tissue.jpg); width:100%">
                 <div id="div1" ><p style="text-align:center;"><img src="https://media.giphy.com/media/5zw1YPwkUtJGvfT8te/giphy.gif" height="250px" width="400px"></p>
             </div>
         </div>
