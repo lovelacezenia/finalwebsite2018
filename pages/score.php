@@ -158,22 +158,11 @@
             echo "<div id='results'>$totalCorrect / 10 </div>";
             
         ?>
-<<<<<<< HEAD
+
         <div id="button1" align="center">
 	
     <input type="button" name="b1" value="TAKE QUIZ AGAIN" onclick="location.href='quiz.php'">
     <input type="button" name="b1" value="END QUIZ" onclick="location.href='../home.php'">
-	</div>
-
-=======
-          <div id="buttons" align="center">
-            <input type="button" name="b2" value="TAKE MORE QUIZ" onclick="location.href='nextquiz.php'">
-        </div>
-         <div id="buttons" align="center">
-            <input type="button" name="b2" value="END" onclick="location.href='notes.php'">
-        </div>
-        
->>>>>>> parent of 87d737e... edited the title header
 	</div>
 
 	  <script src="../js/lib/jquery/jquery.min.js"></script>
