@@ -39,7 +39,12 @@
 <!--[if lt IE 9]>
 <script src="js/respond.min.js"></script>
 <![endif]-->
-
+<style>
+body{
+  background-image: url("../images/logo.png");
+  background-size: 50%;
+}
+</style>
 </head>
 <body>
 	<aside id="colorlib-hero">
