@@ -122,6 +122,51 @@ display:none;
     0% { transform: rotate(3deg); }
     100% { transform: rotate(-3deg); }
 }
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 40px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+
+/* Extra Things */
+body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px; font-weight: 400;text-align: center;margin-top: 50px;}h3 i{color: #444;}
 </style>
 </head>
 <body>
@@ -343,6 +388,14 @@ $php_errormsg is a variable containing the text of the last error message genera
     </div>
   
   </div>
+
+  <!-- Return to Top -->
+<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+<!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+</div>
+</div>
  <footer>
             <div id="footer">
                 <div class="container">
@@ -355,7 +408,7 @@ $php_errormsg is a variable containing the text of the last error message genera
                             </div>
                         </div>
                         <div class="col-md-4 col-pb-sm">
-                          <p align="center">Follow Us on:</p>
+                          <p align="center">Connect with us:</p>
                           <p class="colorlib-social-icons" align="center">
                               <a href="https://www.facebook.com/diannealyza.cayabyab?ref=br_rs"><i class="icon-facebook4"></i></a>
                               <a href="https://twitter.com/ssaarraahhmae?lang=en"><i class="icon-twitter3"></i></a>
@@ -422,6 +475,22 @@ $(".slidingDiv").slideToggle();
 });
 
 });
+
+// ===== Scroll to Top ==== 
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+        $('#return-to-top').fadeIn(200);    // Fade in the arrow
+    } else {
+        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+    }
+});
+$('#return-to-top').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 500);
+});
+
+
 </script>
   </body>
 </html>
