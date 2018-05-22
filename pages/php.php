@@ -182,6 +182,11 @@ a.morelink {
   margin: 10px;
 }
 
+a {color:red; text-decoration:inherit;}
+article {width:50%; padding:2em; margin: 0 auto 0 auto;font-family:Helvetica;}
+.more-content {display:none;}
+.cg-visible {display:block;}
+
 </style>
 </head>
 <body>
@@ -233,14 +238,14 @@ a.morelink {
             <h2>Introduction</h2>
             <p>PHP started out as a small open source project that evolved as more and more people found out how useful it was. Rasmus Lerdorf unleashed the first version of PHP way back in 1994.</p>
           </div></div>
-          <button class="button button1"><div class="show_hide">show more.... </div></button>
-                <div class="slidingDiv">
+         
               <ul>
                 <li>PHP is a recursive acronym for <mark>"PHP: Hypertext Preprocessor"</mark>.</li>
 
                 <li>PHP is a server side scripting language that is embedded in HTML. It is used to manage dynamic content, databases, session tracking, even build entire e-commerce sites.</li>
 
                 <li>It is integrated with a number of popular databases, including MySQL, PostgreSQL, Oracle, Sybase, Informix, and Microsoft SQL Server.</li>
+                <div class="more-content">
 
                 <li>PHP is pleasingly zippy in its execution, especially when compiled as an Apache module on the Unix side. The MySQL server, once started, executes even very complex queries with huge result sets in record-setting time.</li>
 
@@ -249,6 +254,9 @@ a.morelink {
                 <li>PHP is forgiving: PHP language tries to be as forgiving as possible.</ li>
 
                 <li>PHP Syntax is C-Like.</li>
+                 </p>
+    </div>
+    <p><a class="readmore" href="#">Show more (+)</a>
               </ul></div>
           </div>
         </div>
@@ -263,21 +271,22 @@ a.morelink {
                       <h2 align="center">Common uses of PHP</h2>
                       <ul>
                           <li>PHP performs system functions, i.e. from files on a system it can create, open, read, write, and close them.</li>
-                          <button class="button button2"><div class="show_hide">show more.... </div></button>
-                                <div class="slidingDiv">
                           <li>PHP can handle forms, i.e. gather data from files, save data to a file, through email you can send data, return data to the user.</li>
+                           <div class="more-content">
                           <li>You add, delete, modify elements within your database through PHP.</li>
                           <li>Access cookies variables and set cookies.</li>
                           <li>Using PHP, you can restrict users to access some pages of your website.</li>
                           <li>It can encrypt data.</li>
+                            </p>
+    </div>
+    <p><a class="readmore" href="#">Show more (+)</a>
                         </div>
                       </ul>
                     </div>
                   </div>
-                </div>
                 <div class="col-md-4 col-pb-sm">
                   <h2 align="center">Characteristics of PHP</h2>
-                  <p>Five important characteristics:
+                  <p>Five important characteristics:</p>
                   <ul>
                     <li>Simplicity</li>
                     <li>Efficiency</li>
@@ -304,14 +313,16 @@ a.morelink {
                                 <ul>
                                   <li>All variables in PHP are denoted with a leading dollar sign ($).</li>
                                    <li>The value of a variable is the value of its most recent assignment.</li>
-                                   <button class="button button2"><div class="show_hide">show more.... </div></button>
-                                         <div class="slidingDiv">
+                                    <div class="more-content">
                                    <li>Variables are assigned with the = operator, with the variable on the left-hand side and the expression to be evaluated on the right.</li>
                                    <li>Variables can, but do not need, to be declared before assignment.</li>
                                    <li>Variables in PHP do not have intrinsic types - a variable does not know in advance whether it will be used to store a number or a string of characters.</li>
                                    <li>Variables used before they are assigned have default values.</li>
                                    <li>PHP does a good job of automatically converting types from one to another when necessary.</li>
                                    <li>PHP variables are Perl-like.</li>
+                                   </p>
+    </div>
+    <p><a class="readmore" href="#">Show more (+)</a>
                                  </diV>
                                 </ul>
                     </div>
@@ -338,13 +349,13 @@ a.morelink {
     </div>
     <div class="container" >
           <div class="animate-box intro-heading">
-            <div class="comment more">
             <p align="center">
               <h1>PHP - Predefined Variables</h1>
               PHP provides a large number of predefined variables to any script which it runs.
               PHP provides an additional set of predefined arrays containing variables from the web server the environment,
               and user input. These new arrays are called <strong><mark>superglobals</mark></strong>.
             </p>
+            <div class="more-content">
             <p><table id="list">
   <tr>
     <th>No.</th>
@@ -425,6 +436,9 @@ $php_errormsg is a variable containing the text of the last error message genera
   </tr>
 
 </table>
+  </p>
+    </div>
+    <p><a class="readmore" href="#">Show more (+)</a>
           </p>
           </div>
         </div>
@@ -619,6 +633,12 @@ $(document).ready(function() {
     return false;
   });
 });
+$(".readmore").on('click touchstart', function(event) {
+        var txt = $(".more-content").is(':visible') ? 'Show more (+)' : 'Less (–)';
+        $(this).parent().prev(".more-content").toggleClass("cg-visible");
+        $(this).html(txt);
+        event.preventDefault();
+    });
 </script>
   </body>
 </html>
