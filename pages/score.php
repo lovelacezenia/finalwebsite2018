@@ -161,7 +161,7 @@
 
         <div id="button1" align="center">
 	
-    <input type="button" name="b1" value="TAKE QUIZ AGAIN" onclick="location.href='quiz.php'">
+    <input type="button" name="b1" value="TAKE ANOTHER QUIZ" onclick="location.href='nextquiz.php'">
     <input type="button" name="b1" value="END QUIZ" onclick="location.href='../home.php'">
 	</div>
 
