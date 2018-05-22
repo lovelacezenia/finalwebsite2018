@@ -112,7 +112,7 @@
 <body>
 
         <div class="container">
-                <div id="div1" ><p style="text-align:center;"><img src="https://media.giphy.com/media/5zw1YPwkUtJGvfT8te/giphy.gif" height="200px" width="200px"></p>
+                <div id="div1" ><p style="text-align:center;"><img src="https://media.giphy.com/media/5zw1YPwkUtJGvfT8te/giphy.gif" height="250px" width="500px"></p>
             </div>
         </div>
 
