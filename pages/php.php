@@ -163,7 +163,24 @@ display:none;
     color: #fff;
     top: 5px;
 }
-
+a {
+  color: #0254EB
+}
+a:visited {
+  color: #0254EB
+}
+a.morelink {
+  text-decoration:none;
+  outline: none;
+}
+.morecontent span {
+  display: none;
+}
+.comment {
+  width: 400px;
+  background-color: #f0f0f0;
+  margin: 10px;
+}
 
 </style>
 </head>
@@ -321,14 +338,13 @@ display:none;
     </div>
     <div class="container" >
           <div class="animate-box intro-heading">
+            <div class="comment more">
             <p align="center">
               <h1>PHP - Predefined Variables</h1>
               PHP provides a large number of predefined variables to any script which it runs.
               PHP provides an additional set of predefined arrays containing variables from the web server the environment,
               and user input. These new arrays are called <strong><mark>superglobals</mark></strong>.
             </p>
-      <button class="button button1"><div class="show_hide">show more.... </div></button>
-            <div class="slidingDiv">
             <p><table id="list">
   <tr>
     <th>No.</th>
@@ -413,7 +429,6 @@ $php_errormsg is a variable containing the text of the last error message genera
           </div>
         </div>
       </div>
-    </div>
 
 <!-- video and tutorials-->
 <div class="container">
@@ -569,7 +584,39 @@ $('#return-to-top').click(function() {      // When arrow is clicked
     }, 500);
 });
 
+$(document).ready(function() {
+  var showChar = 100;
+  var ellipsestext = "...";
+  var moretext = "more";
+  var lesstext = "less";
+  $('.more').each(function() {
+    var content = $(this).html();
 
+    if(content.length > showChar) {
+
+      var c = content.substr(0, showChar);
+      var h = content.substr(showChar-1, content.length - showChar);
+
+      var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
+
+      $(this).html(html);
+    }
+
+  });
+
+  $(".morelink").click(function(){
+    if($(this).hasClass("less")) {
+      $(this).removeClass("less");
+      $(this).html(moretext);
+    } else {
+      $(this).addClass("less");
+      $(this).html(lesstext);
+    }
+    $(this).parent().prev().toggle();
+    $(this).prev().toggle();
+    return false;
+  });
+});
 </script>
   </body>
 </html>
