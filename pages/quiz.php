@@ -128,22 +128,22 @@
                     <h3>It is a java Objects that are intended to play the role of server component...</h3>
 
                     <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+                        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" required/>
                         <label for="question-1-answers-A">A) HTTP SERVLET </label>
                     </div>
 
                     <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+                        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" required/>
                         <label for="question-1-answers-B">B) JAVA SERVLET</label>
                     </div>
 
                     <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+                        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" required/>
                         <label for="question-1-answers-C">C) SERVLET REQUEST</label>
                     </div>
 
                     <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+                        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" required/>
                         <label for="question-1-answers-D">D) SERVLET RESPONSE </label>
                     </div>
 
@@ -154,22 +154,22 @@
                     <h3>It is a widely-used open source general-purpose scripting language that is especially suited for web development...</h3>
 
                     <div>
-                        <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
+                        <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" required/>
                         <label for="question-2-answers-A">A) PHP </label>
                     </div>
 
                     <div>
-                        <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
+                        <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" required/>
                         <label for="question-2-answers-B">B) JSP </label>
                     </div>
 
                     <div>
-                        <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
+                        <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" required/>
                         <label for="question-2-answers-C">C) SERVLET </label>
                     </div>
 
                     <div>
-                        <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
+                        <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" required/>
                         <label for="question-2-answers-D">D) JAVASCRIPT </label>
                     </div>
 
@@ -180,22 +180,22 @@
                     <h3>It is a PHP superglobal variable which holds information about headers, path, and script location... </h3>
 
                     <div>
-                        <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
+                        <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" required/>
                         <label for="question-3-answers-A">A) $_REQUEST </label>
                     </div>
 
                     <div>
-                        <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
+                        <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" required/>
                         <label for="question-3-answers-B">B) $_POST </label>
                     </div>
 
                     <div>
-                        <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
+                        <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" required/>
                         <label for="question-3-answers-C">C) $_SERVER </label>
                     </div>
 
                     <div>
-                        <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" />
+                        <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" required/>
                         <label for="question-3-answers-D">D) $_FILES </label>
                     </div>
 
@@ -206,22 +206,22 @@
                     <h3>It is a JavaScript runtime built on Chrome's V8 JavaScript engine...</h3>
 
                     <div>
-                        <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
+                        <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" required/>
                         <label for="question-4-answers-A">A) Angular </label>
                     </div>
 
                     <div>
-                        <input type="radio" name="question-4-answers" id="question-4-answers-B" value="B" />
+                        <input type="radio" name="question-4-answers" id="question-4-answers-B" value="B" required/>
                         <label for="question-4-answers-B">B) Apache </label>
                     </div>
 
                     <div>
-                        <input type="radio" name="question-4-answers" id="question-4-answers-C" value="C" />
+                        <input type="radio" name="question-4-answers" id="question-4-answers-C" value="C" required/>
                         <label for="question-4-answers-C">C) Laravel </label>
                     </div>
 
                     <div>
-                        <input type="radio" name="question-4-answers" id="question-4-answers-D" value="D" />
+                        <input type="radio" name="question-4-answers" id="question-4-answers-D" value="D" required/>
                         <label for="question-4-answers-D">D) Node.js </label>
                     </div>
 
@@ -232,22 +232,22 @@
                     <h3>It is a server-side programming technology that enables the creation of dynamic, platform-independent method for building Web-based Applications...</h3>
 
                     <div>
-                        <input type="radio" name="question-5-answers" id="question-5-answers-A" value="A" />
+                        <input type="radio" name="question-5-answers" id="question-5-answers-A" value="A" required/>
                         <label for="question-5-answers-A">A) PHP </label>
                     </div>
 
                     <div>
-                        <input type="radio" name="question-5-answers" id="question-5-answers-B" value="B" />
+                        <input type="radio" name="question-5-answers" id="question-5-answers-B" value="B" required/>
                         <label for="question-5-answers-B">B) JSP </label>
                     </div>
 
                     <div>
-                        <input type="radio" name="question-5-answers" id="question-5-answers-C" value="C" />
+                        <input type="radio" name="question-5-answers" id="question-5-answers-C" value="C" required/>
                         <label for="question-5-answers-C">C) SERVLET </label>
                     </div>
 
                     <div>
-                        <input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" />
+                        <input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" required/>
                         <label for="question-5-answers-D">D) JAVASCRIPT </label>
                     </div>
 
@@ -257,22 +257,22 @@
                     <h3>The attacker's hostile data can trick the interpreter into executing unintended commands or accessing data without proper authorization..</h3>
                     
                     <div>
-                        <input type="radio" name="question-6-answers" id="question-6-answers-A" value="A" />
+                        <input type="radio" name="question-6-answers" id="question-6-answers-A" value="A" required/>
                         <label for="question-6-answers-A">A)  Broken Authentication </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-6-answers" id="question-6-answers-B" value="B" />
+                        <input type="radio" name="question-6-answers" id="question-6-answers-B" value="B" required/>
                         <label for="question-6-answers-B">B) Cross-Site Scripting (XSS) </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-6-answers" id="question-6-answers-C" value="C" />
+                        <input type="radio" name="question-6-answers" id="question-6-answers-C" value="C" required/>
                         <label for="question-6-answers-C">C) Injection </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-6-answers" id="question-6-answers-D" value="D" />
+                        <input type="radio" name="question-6-answers" id="question-6-answers-D" value="D" required/>
                         <label for="question-6-answers-D">D) Security Misconfiguration </label>
                     </div>
                 
@@ -282,22 +282,22 @@
                     <h3>Most commonly seen issue. This is commonly a result of insecure default configurations, incomplete or ad hoc configurations, open cloud storage, misconfigured HTTP headers, and verbose error messages containing sensitive information...</h3>
                     
                     <div>
-                        <input type="radio" name="question-7-answers" id="question-7-answers-A" value="A" />
+                        <input type="radio" name="question-7-answers" id="question-7-answers-A" value="A" required/>
                         <label for="question-7-answers-A">A) Security Misconfiguration </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-7-answers" id="question-7-answers-B" value="B" />
+                        <input type="radio" name="question-7-answers" id="question-7-answers-B" value="B" required/>
                         <label for="question-7-answers-B">B) Insufficient Logging and Monitoring </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-7-answers" id="question-7-answers-C" value="C" />
+                        <input type="radio" name="question-7-answers" id="question-7-answers-C" value="C" required/>
                         <label for="question-7-answers-C">C) Broken Access Control </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-7-answers" id="question-7-answers-D" value="D" />
+                        <input type="radio" name="question-7-answers" id="question-7-answers-D" value="D" required/>
                         <label for="question-7-answers-D">D) Sensitive Data Exposure </label>
                     </div>
                 
@@ -307,22 +307,22 @@
                     <h3>Attackers may steal or modify such weakly protected data to conduct credit card fraud, identity theft, or other crimes...</h3>
                     
                     <div>
-                        <input type="radio" name="question-8-answers" id="question-8-answers-A" value="A" />
+                        <input type="radio" name="question-8-answers" id="question-8-answers-A" value="A" required/>
                         <label for="question-8-answers-A">A) Broken Access Control </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-8-answers" id="question-8-answers-B" value="B" />
+                        <input type="radio" name="question-8-answers" id="question-8-answers-B" value="B" required/>
                         <label for="question-8-answers-B">B) Sensitive Data Exposure </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-8-answers" id="question-8-answers-C" value="C" />
+                        <input type="radio" name="question-8-answers" id="question-8-answers-C" value="C" required/>
                         <label for="question-8-answers-C">C) Injection </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-8-answers" id="question-8-answers-D" value="D" />
+                        <input type="radio" name="question-8-answers" id="question-8-answers-D" value="D" required/>
                         <label for="question-8-answers-D">D) Insecure Deserialization </label>
                     </div>
                 
@@ -332,22 +332,22 @@
                     <h3> Which of the following is true about __filename global object?</h3>
                     
                     <div>
-                        <input type="radio" name="question-9-answers" id="question-9-answers-A" value="A" />
+                        <input type="radio" name="question-9-answers" id="question-9-answers-A" value="A" required/>
                         <label for="question-9-answers-A">A) Represents the filename of the code being executed. </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-9-answers" id="question-9-answers-B" value="B" />
+                        <input type="radio" name="question-9-answers" id="question-9-answers-B" value="B" required/>
                         <label for="question-9-answers-B">B) Represents the resolved absolute path of code file. </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-9-answers" id="question-9-answers-C" value="C" />
+                        <input type="radio" name="question-9-answers" id="question-9-answers-C" value="C" required/>
                         <label for="question-9-answers-C">C) Both of A and B. </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-9-answers" id="question-9-answers-D" value="D" />
+                        <input type="radio" name="question-9-answers" id="question-9-answers-D" value="D" required/>
                         <label for="question-9-answers-D">D) None of the Above. </label>
                     </div>
                 
@@ -358,22 +358,22 @@
                     <h3>  Which of the following code is used to get session in servlet? </h3>
                     
                     <div>
-                        <input type="radio" name="question-10-answers" id="question-10-answers-A" value="A" />
+                        <input type="radio" name="question-10-answers" id="question-10-answers-A" value="A" required/>
                         <label for="question-10-answers-A">A) request.getSession() </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-10-answers" id="question-10-answers-B" value="B" />
+                        <input type="radio" name="question-10-answers" id="question-10-answers-B" value="B" required/>
                         <label for="question-10-answers-B">B) response.getSession() </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-10-answers" id="question-10-answers-C" value="C" />
+                        <input type="radio" name="question-10-answers" id="question-10-answers-C" value="C" required/>
                         <label for="question-10-answers-C">C) new Session() </label>
                     </div>
                     
                     <div>
-                        <input type="radio" name="question-10-answers" id="question-10-answers-D" value="D" />
+                        <input type="radio" name="question-10-answers" id="question-10-answers-D" value="D" required/>
                         <label for="question-10-answers-D">D)  None of the above. </label>
                     </div>
                 
