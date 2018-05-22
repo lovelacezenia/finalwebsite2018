@@ -64,10 +64,10 @@ body{
 					<div class="panel">
 					  <p>
 							<ul>
-								<li> Java Object based on the Servlet API </li>
+								<li> <b>Java Object</b> based on the Servlet API </li>
 								<li> Runs in a server application to answer client requests; technically, servlets are not tied to a specific client-server protocol, but they are most commonly used with HTTP and the term „servlet‟ is often used in the context of an “HTTP Servlet” </li>
 								<li> Web-tier components in the Java EE architecture. </li>
-								<li> Runs in, and is managed by, a web-tier container called the „Servlet Container‟ </li>
+								<li> Runs in, and is managed by, a web-tier container called the "Servlet Container" </li>
 								<li> Mapped to URLs to which clients send requests </li>
 							</ul>
 						</p>
