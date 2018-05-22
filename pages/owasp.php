@@ -61,16 +61,19 @@
 				<button class="accordion">Broken Authentication</button>
 					<div class="panel">
 	  					<p>Application functions related to authentication and session management are often implemented incorrectly, allowing attackers to compromise passwords, keys, or session tokens, or to exploit other implementation flaws to assume other users' identities temporarily or permanently.</p>
+	  					<center><p><img src="../images/broken.jpg"></p></center>
 					</div>
 
 				<button class="accordion">Sensitive Data Exposure</button>
 					<div class="panel">
-	  					<p>Many web applications and APIs do not properly protect sensitive data, such as financial, healthcare, and PII. Attackers may steal or modify such weakly protected data to conduct credit card fraud, identity theft, or other crimes. Sensitive data may be compromised without extra protection, such as encryption at rest or in transit, and requires special precautions when exchanged with the browser.</p>
+	  					<p>Attackers may steal or modify such weakly protected data to conduct credit card fraud, identity theft, or other crimes. Sensitive data may be compromised without extra protection, such as encryption at rest or in transit, and requires special precautions when exchanged with the browser.</p>
+	  					<center><p><img src="../images/sensitive.jpeg"></p></center>
 					</div>
 
 				<button class="accordion">XML External Entities (XXE)</button>
 					<div class="panel">
 	  					<p>Many older or poorly configured XML processors evaluate external entity references within XML documents. External entities can be used to disclose internal files using the file URI handler, internal file shares, internal port scanning, remote code execution, and denial of service attacks.</p>
+	  					<center><p><img src="../images/xml.png"></p></center>
 					</div>
 
 				<button class="accordion">Broken Access Control</button>
