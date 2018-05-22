@@ -49,7 +49,8 @@
 			  	</ul>
 		  	</div>
 		</aside>
-		<div id="colorlib-work">
+				<div class="container">
+				<p style="text-align:center;"><img src="../images/notes.png" height="85px" width="85px" ></p>
 			<div class="container">
 				<button class="accordion">Node JS</button>
 					<div class="panel">
