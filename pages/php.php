@@ -210,7 +210,24 @@ article {width:50%; padding:2em; margin: 0 auto 0 auto;font-family:Helvetica;}
     <div id="colorlib-about">
       <div class="container">
         <div class="row">
-
+          <div class="col-md-3">
+            <div class="container">
+                <div class="row">
+                          <h2>PHP</h2>
+                            <ul>
+                                <li> <a>INTRODUCTION</a></li>
+                                <li><a href="#">Common uses of PHP</a></li>
+                                <li><a href="#">Characteristics of PHP</a></li>
+                                <li><a href="#">PHP - Syntax Overview</a></li>
+                                <li><a href="#">PHP - Variable Types</a></li>
+                                <li><a href="#">PHP - Web Concepts</a></li>
+                                <li><a href="#">PHP - Predefined Variables</a></li>
+                                <li><a href="#">VIDEO TUTORIALS FOR PHP</a></li>
+                                <li><a href="#">TUTORIAL PROPERTY</a></li>
+                            </ul>
+                </div>
+            </div>
+          </div>
           <!-- <div class="col-md-5 animate-box">
             <div class="container">
                 <div class="row">
