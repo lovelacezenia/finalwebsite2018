@@ -182,7 +182,7 @@ a.morelink {
   margin: 10px;
 }
 
-a {color:red; text-decoration:inherit;}
+a {color: #ff0000; text-decoration:inherit;}
 article {width:50%; padding:2em; margin: 0 auto 0 auto;font-family:Helvetica;}
 .more-content {display:none;}
 .cg-visible {display:block;}
@@ -336,13 +336,11 @@ article {width:50%; padding:2em; margin: 0 auto 0 auto;font-family:Helvetica;}
             <p>
             <h1>PHP - Web Concepts</h1>
             <p>This session demonstrates how PHP can provide dynamic content according to browser type, randomly generated numbers or User Input. It also demonstrated how the client browser can be redirected.</p>
-            <p>
+            </p>
             <strong>Identifying Browser & Platform</strong><br>
-            <ul>
-            <li>PHP creates some useful environment variables that can be seen in the phpinfo.php page that was used to setup the PHP environment.</ul>
-            <li>One of the environment variables set by PHP is HTTP_USER_AGENT which identifies the user's browser and operating system.</ul>
-            </ul>
-          </p>
+            
+            <p>PHP creates some useful environment variables that can be seen in the phpinfo.php page that was used to setup the PHP environment.</p>
+            <p>One of the environment variables set by PHP is HTTP_USER_AGENT which identifies the user's browser and operating system.</p>
           </div>
         </div>
       </div>
