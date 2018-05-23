@@ -232,7 +232,7 @@ article {width:50%; padding:2em; margin: 0 auto 0 auto;font-family:Helvetica;}
           </div> -->
           <div class="container">
             <figure class="swing">
-                        <img src="../images/php3.jpg" height="300px" width="300px" align="right">
+                        <img src="../images/php5.png" height="300px" width="300px" align="right">
                       </figure>
               <div class="col-md-8 text-center animate-box intro-heading">
             <h2>Introduction</h2>
